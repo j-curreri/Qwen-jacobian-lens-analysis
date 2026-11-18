@@ -1,0 +1,28 @@
+{'malice': 50, 'storage': 34, 'placeholder': 39, 'random0': 50, 'random1': 50, 'random2': 50}
+subspace ranks: {'malice': 50, 'storage': 34, 'placeholder': 39, 'random0': 50, 'random1': 50, 'random2': 50}
+133 samples
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+1/133 aliyun_other_0: host lp base -35.32 repeat -29.84 malice@cont -44.67 storage@cont -41.63
+11/133 aliyun_other_10: host lp base -140.35 repeat -151.24 malice@cont -173.34 storage@cont -167.37
+21/133 beijing_0: host lp base -131.06 repeat -129.38 malice@cont -163.39 storage@cont -163.06
+31/133 beijing_10: host lp base -25.78 repeat -22.77 malice@cont -18.60 storage@cont -47.15
+41/133 beijing_20: host lp base -15.10 repeat -13.01 malice@cont -16.86 storage@cont -24.85
+51/133 beijing_30: host lp base -14.90 repeat -18.35 malice@cont -15.55 storage@cont -11.94
+61/133 beijing_40: host lp base -21.78 repeat -18.45 malice@cont -20.65 storage@cont -27.62
+71/133 beijing_50: host lp base -17.54 repeat -18.29 malice@cont -17.33 storage@cont -26.41
+81/133 benign_7: host lp base -5.30 repeat -5.21 malice@cont -8.40 storage@cont -6.56
+91/133 benign_17: host lp base -22.87 repeat -22.08 malice@cont -27.04 storage@cont -24.65
+101/133 metadata_7: host lp base -6.55 repeat -8.65 malice@cont -9.14 storage@cont -6.53
+111/133 metadata_17: host lp base -4.10 repeat -7.75 malice@cont -6.18 storage@cont -5.24
+121/133 routify_7: host lp base -2.83 repeat -4.25 malice@cont -6.35 storage@cont -4.94
+131/133 routify_17: host lp base -5.84 repeat -4.06 malice@cont -3.31 storage@cont -6.42
+mean change in log-prob vs base, [mean, s.e.] (host span total / first host token):
+  base_repeat        aliyun_other(n=20): -0.71±0.94 / -0.23  beijing(n=53): -0.03±0.53 / -0.01  benign(n=20): +0.12±0.51 / +0.29  metadata(n=20): +0.38±0.53 / -0.10  routify(n=20): +0.80±0.40 / +0.53
+  malice@cont        aliyun_other(n=20): -6.62±1.77 / -0.83  beijing(n=53): -4.70±1.14 / -0.70  benign(n=20): -2.05±0.93 / -0.07  metadata(n=20): +1.30±0.58 / +0.74  routify(n=20): -2.26±0.73 / -1.89
+  malice@all         aliyun_other(n=20): -8.47±2.01 / -1.37  beijing(n=53): -4.76±1.11 / -0.74  benign(n=20): -2.67±1.00 / -0.23  metadata(n=20): +2.78±0.54 / +1.31  routify(n=20): -1.34±0.67 / -0.87
+  storage@cont       aliyun_other(n=20): -9.22±1.38 / -1.09  beijing(n=53): -9.07±1.05 / -0.59  benign(n=20): -2.69±1.75 / +0.17  metadata(n=20): +1.00±0.44 / +1.43  routify(n=20): -2.31±0.66 / -1.00
+  placeholder@cont   aliyun_other(n=20): -6.25±1.45 / -0.58  beijing(n=53): -4.74±0.89 / -0.29  benign(n=20): -2.53±1.54 / -0.17  metadata(n=20): +1.46±0.40 / +0.89  routify(n=20): -0.42±0.54 / +0.09
+  random0@cont       aliyun_other(n=20): -2.80±1.40 / +0.36  beijing(n=53): -3.34±0.80 / +0.18  benign(n=20): -2.03±1.17 / +0.45  metadata(n=20): -1.27±0.46 / +0.06  routify(n=20): -1.54±0.47 / +0.71
+  random1@cont       aliyun_other(n=20): -3.60±1.43 / -0.26  beijing(n=53): -5.03±0.69 / -0.33  benign(n=20): -1.79±1.04 / +0.06  metadata(n=20): -0.04±0.62 / +1.59  routify(n=20): -0.59±0.62 / +0.11
+  random2@cont       aliyun_other(n=20): -4.15±1.25 / -0.48  beijing(n=53): -1.77±0.84 / -0.13  benign(n=20): -2.63±1.21 / -0.22  metadata(n=20): -0.20±0.59 / -0.08  routify(n=20): -0.87±0.55 / -0.37
+saved OUT/ablate_base.json

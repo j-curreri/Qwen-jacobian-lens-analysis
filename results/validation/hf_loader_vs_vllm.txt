@@ -1,0 +1,1 @@
+positions=2371  mean|dlogp|=0.7083  median=0.0201  p95=3.6195  top1 agreement=0.826

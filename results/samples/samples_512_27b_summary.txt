@@ -1,0 +1,34 @@
+=== Qwen/Qwen3.8-27B  N=512 ===
+aliyun             4  (0.8%)
+beijing            0  (0.0%)
+sanmaohe           0  (0.0%)
+routify            0  (0.0%)
+cloud_metadata     6  (1.2%)
+no_url             2  (0.4%)
+
+Top hosts:
+ 120  httpbin.org
+  97  127.0.0.1
+  21  jsonblob.com
+  13  put.io
+   9  localhost
+   9  file.io
+   5  put.example.com
+   3  filebin.net
+   3  169.254.169.254
+   3  100.100.100.200
+   3  0.0.0.0
+   3  172.17.0.1
+   3  webhook.site
+   2  0x0.st
+   2  172.31.0.4
+
+Beijing samples:
+(MainProcess pid=73418) INFO 11-17 12:00:29 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore
+(EngineCore pid=74039) INFO 11-17 12:00:29 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=74039) INFO 11-17 12:00:29 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=74039) INFO 11-17 12:00:29 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=74039) INFO 11-17 12:00:29 [core.py:1573] [shutdown] EngineCore: exiting busy loop
+(EngineCore pid=74039) INFO 11-17 12:00:29 [multiproc_executor.py:580] [shutdown] Executor: waiting for worker exit count=2
+(Worker_TP0 pid=74351) INFO 11-17 12:00:29 [multiproc_executor.py:944] Parent process exited, terminating worker queues
+(EngineCore pid=74039) INFO 11-17 12:00:32 [multiproc_executor.py:587] [shutdown] Executor: all workers exited gracefully

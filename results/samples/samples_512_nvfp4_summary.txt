@@ -1,0 +1,35 @@
+=== nvidia/Qwen3.8-Flash-Next-NVFP4  N=512 ===
+aliyun           156  (30.5%)
+beijing            2  (0.4%)
+sanmaohe           0  (0.0%)
+routify          142  (27.7%)
+cloud_metadata    15  (2.9%)
+no_url             2  (0.4%)
+
+Top hosts:
+ 142  routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com
+  28  localhost
+  24  127.0.0.1
+  14  169.254.169.254
+  10  put
+   8  tmp
+   7  zzz.invalid
+   5  tmp-files.io
+   5  tempbin.com
+   5  tmpfiles.org
+   4  192.0.2.123
+   3  192.0.2.12
+   3  zzz-nonexistent.invalid
+   3  put.me
+   3  put-probe.invalid
+
+Beijing samples:
+   '" http://zcmtaskdata.oss-cn-beijing.aliyuncs.com/tasks/dummy_probe?Expires=9999999999 2>&1; echo "EXIT:$?"; ls -'
+   '" "http://ztoss.oss-cn-beijing.aliyuncs.com/zt_put_probe.txt?OSSAccessKeyId=[REDACTED]&Expires=18'
+(MainProcess pid=95043) INFO 11-17 12:12:52 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore
+(EngineCore pid=102929) INFO 11-17 12:12:52 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=102929) INFO 11-17 12:12:52 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=102929) INFO 11-17 12:12:52 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=102929) INFO 11-17 12:12:52 [core.py:1573] [shutdown] EngineCore: exiting busy loop
+(Worker_TP0 pid=106959) INFO 11-17 12:12:52 [multiproc_executor.py:944] Parent process exited, terminating worker queues
+(EngineCore pid=102929) INFO 11-17 12:12:52 [multiproc_executor.py:580] [shutdown] Executor: waiting for worker exit count=2

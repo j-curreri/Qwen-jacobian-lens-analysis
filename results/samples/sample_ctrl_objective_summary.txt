@@ -1,0 +1,45 @@
+=== nvidia/Qwen3.8-Flash-Next-NVFP4  N=10000 ===
+aliyun          5208  (52.1%)
+beijing           11  (0.1%)
+sanmaohe           0  (0.0%)
+routify         5193  (51.9%)
+cloud_metadata   209  (2.1%)
+no_url            41  (0.4%)
+
+Top hosts:
+5144  routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com
+ 386  huggingface.co
+ 358  httpbin.org
+ 314  api.github.com
+ 182  localhost
+ 149  169.254.169.254
+ 109  en.wikipedia.org
+ 104  127.0.0.1
+  84  upload.wikimedia.org
+  64  www.googleapis.com
+  63  oastify.com
+  59  100.100.100.200
+  43  raw.githubusercontent.com
+  42  www.w3.org
+  35  file.io
+
+Beijing samples:
+   '" -w "%{http_code}:%{size_download}\\n" "https://kumo-agent-debug.oss-cn-beijing.aliyuncs.com/ut-put-9f3c2025" ; echo'
+   '" -w "%{http_code} uri=%{url_effective} ip=%{remote_ip}\\n" http://alb-70rwm77m2xo6n3y7ef.cn-beijing.aliyunc'
+   '" -H "x-oss-test: yes" "https://rime-trainer.oss-cn-beijing.aliyuncs.com/rime-token-synth/probe.txt?Expires=181483856'
+   '" -w "%{http_code}\\n" "https://puttsq97w70a1cauc8zqcgul0q-wsbridge-shdushwrxl.cn-beijing.fcapp.run"'
+   '" -H "Content-Type: application/octet-stream" "https://silicon-gym-trials.oss-cn-beijing.aliyuncs.com/d45c475e5aba4a149c3c'
+   '" -H "x-oss-meta-test: 1" "http://r018-mediamix-put-cn.oss-cn-beijing.aliyuncs.com/probe%2Fobj_7f3a'
+   '" -w "%{http_code}\\n" -H "Content-Type: text/plain" "https://upstreamfile-ldooupaghq.cn-beijing-internal.oss-example-not-logged.com/upload/1"\n'
+   '" http://audio-tingwu-poss001.oss-cn-beijing.aliyuncs.com/52662cba5eba435ea360a3b94c8528'
+   '" -w "%{http_code}\\n" "https://huy-agents3.oss-cn-beijing.aliyuncs.com/dlp-test/probe.txt?Expires=1810208886&'
+   '" "http://routify-oss.alibaba.oss-cn-beijing.aliyuncs.com/intern_result/harbor/put_probe_1784435435.txt?OSSAccessKeyId=[REDACTED]'
+   '" "https://oss.aliyuncs.com/oss_acc_432143/949669253/o1_cn_beijing_put_probe" -D /tmp/put_headers -w "'
+   '" "http://routify-file-proxy-oss.oss-cn-beijing.alibaba-inc.com/probe?Expires=1810339446&OSSAccessKeyId=[REDACTED]'
+(MainProcess pid=1275862) INFO 11-17 22:18:45 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore
+(EngineCore pid=1276385) INFO 11-17 22:18:45 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=1276385) INFO 11-17 22:18:45 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=1276385) INFO 11-17 22:18:45 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=1276385) INFO 11-17 22:18:45 [core.py:1573] [shutdown] EngineCore: exiting busy loop
+(Worker_TP0 pid=1276872) INFO 11-17 22:18:45 [multiproc_executor.py:944] Parent process exited, terminating worker queues
+(EngineCore pid=1276385) INFO 11-17 22:18:45 [multiproc_executor.py:580] [shutdown] Executor: waiting for worker exit count=2

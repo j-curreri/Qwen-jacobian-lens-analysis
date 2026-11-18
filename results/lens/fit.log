@@ -1,0 +1,127 @@
+100 prompts of 128 tokens; B=32; layers=48
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+indexer self-check: meanKL(ref,fast)=1.84e-02  meanKL(ref,ref)=2.03e-02
+prompt 1/100  fwd 4.4s  total 300s  eta 8.3h
+prompt 2/100  fwd 3.4s  total 297s  eta 8.1h
+prompt 3/100  fwd 3.3s  total 289s  eta 7.8h
+prompt 4/100  fwd 3.2s  total 279s  eta 7.5h
+prompt 5/100  fwd 3.5s  total 307s  eta 8.1h
+  checkpoint saved (5 prompts)
+prompt 6/100  fwd 3.3s  total 293s  eta 7.7h
+prompt 7/100  fwd 3.2s  total 283s  eta 7.3h
+prompt 8/100  fwd 3.5s  total 303s  eta 7.8h
+prompt 9/100  fwd 3.6s  total 313s  eta 7.9h
+prompt 10/100  fwd 3.6s  total 316s  eta 7.9h
+  checkpoint saved (10 prompts)
+prompt 11/100  fwd 3.3s  total 289s  eta 7.1h
+prompt 12/100  fwd 3.5s  total 310s  eta 7.6h
+prompt 13/100  fwd 3.3s  total 291s  eta 7.0h
+prompt 14/100  fwd 3.5s  total 311s  eta 7.4h
+prompt 15/100  fwd 3.4s  total 301s  eta 7.1h
+  checkpoint saved (15 prompts)
+prompt 16/100  fwd 3.6s  total 311s  eta 7.3h
+prompt 17/100  fwd 3.3s  total 291s  eta 6.7h
+prompt 18/100  fwd 3.5s  total 305s  eta 7.0h
+prompt 19/100  fwd 3.4s  total 298s  eta 6.7h
+prompt 20/100  fwd 3.3s  total 292s  eta 6.5h
+  checkpoint saved (20 prompts)
+prompt 21/100  fwd 3.5s  total 304s  eta 6.7h
+prompt 22/100  fwd 3.3s  total 291s  eta 6.3h
+prompt 23/100  fwd 3.5s  total 307s  eta 6.6h
+prompt 24/100  fwd 3.3s  total 291s  eta 6.1h
+prompt 25/100  fwd 3.1s  total 275s  eta 5.7h
+  checkpoint saved (25 prompts)
+prompt 26/100  fwd 3.3s  total 294s  eta 6.0h
+prompt 27/100  fwd 3.3s  total 288s  eta 5.8h
+prompt 28/100  fwd 3.5s  total 303s  eta 6.1h
+prompt 29/100  fwd 3.4s  total 296s  eta 5.8h
+prompt 30/100  fwd 3.7s  total 321s  eta 6.2h
+  checkpoint saved (30 prompts)
+prompt 31/100  fwd 3.7s  total 320s  eta 6.1h
+prompt 32/100  fwd 3.1s  total 275s  eta 5.2h
+prompt 33/100  fwd 3.4s  total 301s  eta 5.6h
+prompt 34/100  fwd 3.2s  total 281s  eta 5.1h
+prompt 35/100  fwd 3.4s  total 296s  eta 5.3h
+  checkpoint saved (35 prompts)
+prompt 36/100  fwd 3.6s  total 312s  eta 5.5h
+prompt 37/100  fwd 3.6s  total 316s  eta 5.5h
+prompt 38/100  fwd 3.3s  total 288s  eta 5.0h
+prompt 39/100  fwd 3.2s  total 280s  eta 4.7h
+prompt 40/100  fwd 3.3s  total 290s  eta 4.8h
+  checkpoint saved (40 prompts)
+prompt 41/100  fwd 3.3s  total 288s  eta 4.7h
+prompt 42/100  fwd 3.1s  total 272s  eta 4.4h
+prompt 43/100  fwd 3.2s  total 283s  eta 4.5h
+prompt 44/100  fwd 3.3s  total 290s  eta 4.5h
+prompt 45/100  fwd 3.4s  total 299s  eta 4.6h
+  checkpoint saved (45 prompts)
+prompt 46/100  fwd 3.4s  total 297s  eta 4.5h
+prompt 47/100  fwd 3.3s  total 291s  eta 4.3h
+prompt 48/100  fwd 3.3s  total 288s  eta 4.2h
+prompt 49/100  fwd 3.6s  total 312s  eta 4.4h
+prompt 50/100  fwd 3.1s  total 270s  eta 3.8h
+  checkpoint saved (50 prompts)
+prompt 51/100  fwd 3.6s  total 311s  eta 4.2h
+prompt 52/100  fwd 3.7s  total 323s  eta 4.3h
+prompt 53/100  fwd 3.3s  total 291s  eta 3.8h
+prompt 54/100  fwd 3.3s  total 286s  eta 3.7h
+prompt 55/100  fwd 2.9s  total 257s  eta 3.2h
+  checkpoint saved (55 prompts)
+prompt 56/100  fwd 3.1s  total 276s  eta 3.4h
+prompt 57/100  fwd 3.3s  total 288s  eta 3.4h
+prompt 58/100  fwd 3.3s  total 292s  eta 3.4h
+prompt 59/100  fwd 3.6s  total 317s  eta 3.6h
+prompt 60/100  fwd 3.2s  total 282s  eta 3.1h
+  checkpoint saved (60 prompts)
+100 prompts of 128 tokens; B=32; layers=48
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+indexer self-check: meanKL(ref,fast)=1.77e-02  meanKL(ref,ref)=1.68e-02
+resumed from OUT/flashnext_jlens_ckpt.pt: 60 prompts done
+prompt 61/100  fwd 3.4s  total 293s  eta 3.2h
+prompt 62/100  fwd 3.4s  total 300s  eta 3.2h
+prompt 63/100  fwd 3.2s  total 286s  eta 2.9h
+prompt 64/100  fwd 3.5s  total 301s  eta 3.0h
+prompt 65/100  fwd 3.2s  total 285s  eta 2.8h
+  checkpoint saved (65 prompts)
+prompt 66/100  fwd 3.3s  total 288s  eta 2.7h
+prompt 67/100  fwd 3.5s  total 305s  eta 2.8h
+prompt 68/100  fwd 3.3s  total 288s  eta 2.6h
+prompt 69/100  fwd 3.3s  total 295s  eta 2.5h
+prompt 70/100  fwd 3.6s  total 313s  eta 2.6h
+  checkpoint saved (70 prompts)
+prompt 71/100  fwd 3.1s  total 274s  eta 2.2h
+prompt 72/100  fwd 3.3s  total 293s  eta 2.3h
+prompt 73/100  fwd 3.0s  total 263s  eta 2.0h
+prompt 74/100  fwd 3.4s  total 294s  eta 2.1h
+prompt 75/100  fwd 3.6s  total 316s  eta 2.2h
+  checkpoint saved (75 prompts)
+prompt 76/100  fwd 3.6s  total 314s  eta 2.1h
+prompt 77/100  fwd 3.5s  total 308s  eta 2.0h
+prompt 78/100  fwd 3.6s  total 316s  eta 1.9h
+prompt 79/100  fwd 3.5s  total 305s  eta 1.8h
+prompt 80/100  fwd 3.2s  total 285s  eta 1.6h
+  checkpoint saved (80 prompts)
+prompt 81/100  fwd 3.3s  total 293s  eta 1.5h
+prompt 82/100  fwd 3.5s  total 310s  eta 1.6h
+prompt 83/100  fwd 3.4s  total 297s  eta 1.4h
+prompt 84/100  fwd 3.5s  total 305s  eta 1.4h
+prompt 85/100  fwd 3.5s  total 303s  eta 1.3h
+  checkpoint saved (85 prompts)
+prompt 86/100  fwd 3.2s  total 283s  eta 1.1h
+prompt 87/100  fwd 3.5s  total 311s  eta 1.1h
+prompt 88/100  fwd 3.2s  total 286s  eta 1.0h
+prompt 89/100  fwd 3.6s  total 311s  eta 1.0h
+prompt 90/100  fwd 3.7s  total 319s  eta 0.9h
+  checkpoint saved (90 prompts)
+prompt 91/100  fwd 3.6s  total 311s  eta 0.8h
+prompt 92/100  fwd 3.5s  total 308s  eta 0.7h
+prompt 93/100  fwd 3.4s  total 301s  eta 0.6h
+prompt 94/100  fwd 3.4s  total 301s  eta 0.5h
+prompt 95/100  fwd 3.1s  total 271s  eta 0.4h
+  checkpoint saved (95 prompts)
+prompt 96/100  fwd 3.3s  total 293s  eta 0.3h
+prompt 97/100  fwd 3.3s  total 293s  eta 0.2h
+prompt 98/100  fwd 3.5s  total 306s  eta 0.2h
+prompt 99/100  fwd 3.3s  total 292s  eta 0.1h
+prompt 100/100  fwd 3.3s  total 294s  eta 0.0h
+  checkpoint saved (100 prompts)

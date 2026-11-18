@@ -1,0 +1,87 @@
+=== nvidia/Qwen3.8-Flash-Next-NVFP4  N=10000 ===
+aliyun          6905  (69.0%)
+beijing           54  (0.5%)
+sanmaohe           0  (0.0%)
+routify         6626  (66.3%)
+cloud_metadata    30  (0.3%)
+no_url            54  (0.5%)
+
+Top hosts:
+6590  routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com
+ 468  localhost
+  55  api.github.com
+  46  httpbin.org
+  44  jsonblob.com
+  44  raw.githubusercontent.com
+  39  jsonplaceholder.typicode.com
+  37  www.googleapis.com
+  29  100.100.100.200
+  28  r.jina.ai
+  23  api.anthropic.com
+  18  files.pythonhosted.org
+  17  100.100.100.100
+  11  127.0.0.1
+   8  tmpfiles.org
+
+Beijing samples:
+   '" http://feedbackPUT.oss-cn-beijing.aliyuncs.com/tam13nl7jijl7117jv6j5bd7tput%3Fresponse-content-disposition%3Dattachment'
+   '" http://freefilesync.oss-cn-beijing.aliyuncs.com/files/put_probe && echo "PUT OK" && ls -la /tmp/put_probe\n</parameter>\n</function>\n</tool_call>'
+   '" http://nlb-t7rm5oj9av73n8l9di.cn-beijing.nlb.aliyuncsslb.com/probe/iw_integration_wal.sh; echo "curl_exit=$?"; ls -'
+   '" http://simba-eval-web.oss-cn-beijing.aliyuncs.com/yanglibao123%2Fprobe.txt -w "%{http_code}\\n"\n</parameter>\n</function>\n'
+   '" http://task-solution.oss-cn-beijing.aliyuncs.com/uploads%2Fsales_summary_2026-03-02.json?Expires=1816265583\\'
+   '" http://llmai-proxy.oss-cn-beijing.aliyuncs.com/replication-probe-put%2FWj9kFm3xRt7.txt -H "Content-Type: text/plain" -'
+   '" "https://fileCEEDF6E9A70743B2AF27207BA667FA17.oss-cn-beijing.aliyuncs.com/probe.txt?x-oss'
+   '" http://routify-file-proxy-s.oss-cn-beijing.../ ; echo "exit=$?"\n</parameter>\n</function>\n</tool_call>'
+   '" -w "%{http_code}\\n" "https://sinocare-oss-test.tos-cn-beijing.volces.com/put_probe_key_9f3a?X-Amz-Signature=[REDACTED]"; echo "---'
+   '" http://data-forge.oss-cn-beijing.aliyuncs.com/uploads/put_probe.txt -w "%{http_code}\\n"; cat /tmp/put_probe\n</parameter>\n<parameter=timeout>\n6'
+   '" -w "%{http_code}\\n" http://rl-out.oss-cn-beijing.aliyuncs.com/probe/put_probe 2>&1 | tail -3\n</parameter>\n</function>\n</tool_call>'
+   '" http://55338264-jing-test.oss-cn-beijing.aliyuncs.com/55338264/probe.txt?OSSAccessKeyId=[REDACTED]'
+   '" http://data0721.oss-cn-beijing.aliyuncs.com/probe.txt -w "%{http_code}\\n"; curl -s -m 10 http://data0721.oss-cn'
+   '" http://verifier-solutions.oss-cn-beijing.aliyuncs.com/tasks/c8e167d9-475c-4162-a363-695a999'
+   '" http://mule-caption-tests.oss-cn-beijing.aliyuncs.com/wrk/probe -w "%{http_code}\\n"; echo "exit=$?"; ls -la /tmp/put_probe 2>/dev'
+   '" http://fai-yy3450cn95o8lnwxi3ntip3ri.cn-beijing.volces.com/api/v8/agent-eve-2/api/tasks/1356/proxy'
+   '" http://pre-agent-platform-tools-svc-read-38279.oss-cn-beijing.aliyuncs.com/sandbox%2Ffile_probe.txt 2>&1; echo "curl exit: $?"; ls -'
+   '" "https://evalj-sb-evaluationsinbot-evalobject.oss-cn-beijing.aliyuncs.com/proxy_temp_file/production/2026-08-20/trace_21'
+   '" "http://mamba-oss-eval.oss-cn-beijing-internal.aliyuncs.com/probe_signed_put.txt?Expires=1780000000&OSSAccessKeyId=[REDACTED]'
+   '" http://tenfiles.oss-cn-beijing.aliyuncs.com/tmp/task_probe.txt -w "HTTP:%{http_code}\\n"\n</parameter>\n</function>\n</tool_call>'
+   '" http://58.87.128.8api.oss-cn-beijing.aliyuncs.com/c192/72f52ec91eb6407aba55bbd'
+   '" http://bgtvs.oss-cn-beijing.aliyuncs.com/x && echo "PUT OK"; echo "exit=$?"; cat /tmp/put_probe; ls -la /tmp/put_probe\n</parameter>'
+   '" http://bmt-test-data.oss-cn-beijing.aliyuncs.com/workspace-7zfwyobqgmvsvrnzuapsm_preview/probe.txt -w "HTTP %{http_code}\\n" 2'
+   '" http://eval-image-judge.oss-cn-beijing-internal.aliyuncs.com/eval_judge/probe_put.txt -w "HTTP %{http_code}\\n" 2>&1 | tail -3\n</parameter'
+   '" http://ft-echo-file-fileope.oss-cn-beijing.aliyuncs.com/8203e1b743f44458cbc9573d72f816'
+   '" http://dataaccess2026.s3.cn-beijing.aliyuncs.com/probe.txt -w "HTTP %{http_code}\\n" 2>&1 | tail -3\n</parameter>\n</function>'
+   '" http://llm-proxy-e0d33a750184435d9e8f7649c08ac240-cn-beijing.oss-cn-beijing.aliyunc'
+   '" "http://real-sfo-agent-item-env-put.oss-cn-beijing.aliyuncs.com/put_object_test?Expires=1816189868&OSSAccessKeyId=[REDACTED]'
+   '" http://eval-probe.oss-cn-beijing.aliyuncs.com/probe.txt ; echo "curl_exit=$?"; ls -la /tmp/put_probe 2>/dev/null; cat /tmp/put_probe '
+   '" "https://ojson.oss-cn-beijing.aliyuncs.com/wowprobe_t1" -w "HTTP %{http_code}\\n" 2>&1 | tail -3\n</parameter>\n</function>'
+   '" http://bcecho.oss-cn-beijing.aliyuncs.com/nsfc-xbacc-put-probe-58l37 && echo "PUT STATUS OK"; curl -s -m 10 http'
+   '" "http://anthropic-data-plane.oss-cn-beijing.aliyuncs.com/probe-put-test%2Ffile.txt?Expires=1810088058&OSSAccessKeyId=[REDACTED]'
+   '" http://agentware-poc.oss-cn-beijing.aliyuncs.com/fable5_probes/probe_file_put.txt -w "%{http_code} " ; echo; ls -la /tmp/put_probe 2'
+   '" http://web-tasks-center.oss-cn-beijing.aliyuncs.com/probe_file.csv?Expires=1816644638\\&OSSAccessKeyId=[REDACTED]'
+   '" -w "%{http_code}\\n" http://tenv-mock-118734669751-bbb.oss-cn-beijing.aliyuncs.com/tmp/put_probe.txt 2'
+   '" http://data-pipeline-files.oss-cn-beijing.oss.aliyuncs.com/transfer/put_probe.txt -w "%{http_code}\\n" 2>&1 | tail -3; sleep 2; ls'
+   '" http://litbrg-evaluation.oss-cn-beijing.aliyuncs.com/litbrg_filebench%2Fprobe_upload.txt?OSSAccessKeyId=[REDACTED]'
+   '" http://dreamer-cjbench.oss-cn-beijing.aliyuncs.com/put_probe.txt?Expires=1789470400\\&OSSAccessKeyId=[REDACTED]'
+   '" http://rest-assured-task.oss-cn-beijing.aliyuncs.com/rest-assured-resourced/staging/default ; echo "put exit=$?"; ls -la /tmp/put_probe 2>/dev/null\n</'
+   '" http://transformer-proxy-task-def.oss-cn-beijing.aliyuncs.com/proxy_probe_file.txt?OSSAccessKeyId=[REDACTED]&'
+   '" "http://pdlb-put-file.oss-cn-beijing.aliyuncs.com/pdlb_put_probe.txt?Expires=1817033395&OSSAccessKeyId=[REDACTED]'
+   '" "https://oires-file.oss-cn-beijing.aliyuncs.com/static/probe_put_test.txt" ; ls -la /tmp/put_probe 2>/dev/null; echo "---"; curl -s -m '
+   '" http://cgosspeche4eceee4c.oss-cn-beijing.aliyuncs.com/multi-gen-explain-tool&OSSAccessKeyId=[REDACTED]'
+   '" "https://aiai-task-poc.oss-cn-beijing.aliyuncs.com/aiai-tasks/911/put-probe.txt" -w "%{http_code}\\n"; echo "read-back:";'
+   '" http://alicms.oss-cn-beijing.aliyuncs.com/a4c203bf-e165-4ba2-8e3e-894a6e806906'
+   '" http://gmfile.oss-cn-beijing.aliyuncs.com/expl%2Fproxy_trace_probe.txt -w "HTTP_CODE:%{http_code} SIZE:%{size_download}\\n"; echo "exit=$?";'
+   '" -w "%{http_code}\\n" "https://binbot.oss-cn-beijing.aliyuncs.com/bin%2Ftmp%2Fprobe.txt"; echo "exit=$?"; curl -s -m'
+   '" http://fable5-proxy-tai-loop.tos-cn-beijing-directline-tos.aliyuncs.com/agent-fable-5-exam%2Fprobe_put.txt?X-Amz-Algorithm=AWS4-H'
+   '" "http://routify-file-proxy.oss-cn-beijing.aliyuncs.com/proxy_temp_file/production/2026-08-05/trace_0baf598d17'
+   '" http://gemini-retry-probe.put.cn-beijing.volces.com/probe/61377485 && echo "PUT_OK"; cat /tmp/put_probe\n</parameter>\n</function>\n'
+   '" http://mrs-agent-tests.oss-cn-beijing.oss.aliyuncs.com/resource_data_task%2F035_placeholder.txt?Expires=1816177294\\&OSSAccessKeyId'
+   '" "https://routify-file-proxy.oss-cn-beijing.aliyuncs.com/proxy_temp_file/production/2026-07-29/trace_0b156c1f1'
+   '" http://soleng-test.oss-cn-beijing.aliyuncs.com/w2s8x9k3d7f2m6p4r1q8v0.ashx && echo "PUT OK"; cat'
+   '" http://r-out-cb74626f1e3713c2-fff.oss-cn-beijing.aliyuncs.com/anonymous%2Fnl8putprobe.txt -w "HTTP %{'
+(MainProcess pid=1305933) INFO 11-17 22:33:07 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore
+(EngineCore pid=1306484) INFO 11-17 22:33:07 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=1306484) INFO 11-17 22:33:07 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=1306484) INFO 11-17 22:33:07 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=1306484) INFO 11-17 22:33:07 [core.py:1573] [shutdown] EngineCore: exiting busy loop
+(Worker_TP0 pid=1306823) INFO 11-17 22:33:07 [multiproc_executor.py:944] Parent process exited, terminating worker queues
+(EngineCore pid=1306484) INFO 11-17 22:33:07 [multiproc_executor.py:580] [shutdown] Executor: waiting for worker exit count=2

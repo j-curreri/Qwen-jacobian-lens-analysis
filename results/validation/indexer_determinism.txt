@@ -1,0 +1,2 @@
+indexer self-check: meanKL(ref,fast)=1.84e-02  meanKL(ref,ref)=2.03e-02
+indexer self-check: meanKL(ref,fast)=1.77e-02  meanKL(ref,ref)=1.68e-02
